@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Warehouse Worker - Listening Stage 1</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #fefaf6;
+      color: #1f2937;
+      text-align: center;
+    }
+    audio, img {
+      width: 100%;
+      max-width: 350px;
+      margin: 20px auto;
+      display: block;
+      border-radius: 8px;
+    }
+    .nav-buttons {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .nav-buttons a {
+      background: #f97316;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .quiz-section {
+      text-align: left;
+      max-width: 600px;
+      margin: 30px auto;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    .question h3 {
+      margin-bottom: 10px;
+    }
+    .answers label {
+      display: block;
+      margin: 5px 0;
+      cursor: pointer;
+    }
+    .btn-row {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-weight: bold;
+      border: 1px solid #1f2937;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #result {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #1f2937;
+    }
+    .quiz-container {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  padding: 0 16px;
+}
+
+.question {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.question p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.question label {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="nav-buttons">
+    <a href="../../../index.html">Home</a>
+    <a href="../index.html">Back</a>
+  </div>
+
+  <h1>Warehouse Worker - Listening</h1>
+  <h2>Stage 1 - Phone Screening Interview</h2>
+
+  <audio controls>
+    <source src="../audio/warehouse-worker_stage1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <img src="../images/warehouse-worker_stage1.jpg" alt="Warehouse worker during interview" />
+
+  <div class="quiz-section" id="quiz">
+    <!-- Вопросы -->
+    <form id="quizForm">
+  <ol>
+    <li>
+      What countries has Daniel worked in?
+      <br>
+      <label><input type="radio" name="q1" value="0"> Germany and UK</label><br>
+      <label><input type="radio" name="q1" value="1"> Poland and UK</label><br>
+      <label><input type="radio" name="q1" value="0"> Spain and Canada</label><br>
+      <label><input type="radio" name="q1" value="0"> Italy and Poland</label>
+    </li><br>
+
+    <li>
+      What kind of warehouse tasks did he perform?
+      <br>
+      <label><input type="radio" name="q2" value="0"> Customer support and packing</label><br>
+      <label><input type="radio" name="q2" value="0"> Cleaning and inventory</label><br>
+      <label><input type="radio" name="q2" value="1"> Packing, inventory, loading/unloading</label><br>
+      <label><input type="radio" name="q2" value="0"> Office tasks and shipping</label>
+    </li><br>
+
+    <li>
+      Does Daniel currently have a Canadian forklift license?
+      <br>
+      <label><input type="radio" name="q3" value="0"> Yes, Canadian and European license</label><br>
+      <label><input type="radio" name="q3" value="1"> No, only a European one</label><br>
+      <label><input type="radio" name="q3" value="0"> No, but has US certification</label><br>
+      <label><input type="radio" name="q3" value="0"> Not licensed at all</label>
+    </li><br>
+
+    <li>
+      Is he open to forklift training in Canada?
+      <br>
+      <label><input type="radio" name="q4" value="1"> Yes, he’s open to it</label><br>
+      <label><input type="radio" name="q4" value="0"> No, he prefers office roles</label><br>
+      <label><input type="radio" name="q4" value="0"> Only if paid extra</label><br>
+      <label><input type="radio" name="q4" value="0"> Already completed training in Canada</label>
+    </li><br>
+
+    <li>
+      What kind of equipment has Daniel used?
+      <br>
+      <label><input type="radio" name="q5" value="0"> Voice scanners</label><br>
+      <label><input type="radio" name="q5" value="0"> Tablets and clipboards</label><br>
+      <label><input type="radio" name="q5" value="1"> Handheld scanners</label><br>
+      <label><input type="radio" name="q5" value="0"> Thermal printers</label>
+    </li><br>
+
+    <li>
+      Is Daniel open to working weekends or evenings?
+      <br>
+      <label><input type="radio" name="q6" value="1"> Yes, he is flexible with hours</label><br>
+      <label><input type="radio" name="q6" value="0"> Only daytime shifts</label><br>
+      <label><input type="radio" name="q6" value="0"> Only weekdays</label><br>
+      <label><input type="radio" name="q6" value="0"> Only night shifts</label>
+    </li><br>
+
+    <li>
+      Does he have transportation to the warehouse?
+      <br>
+      <label><input type="radio" name="q7" value="0"> No, he depends on public transit</label><br>
+      <label><input type="radio" name="q7" value="1"> Yes, he has reliable transportation</label><br>
+      <label><input type="radio" name="q7" value="0"> Sometimes he carpools</label><br>
+      <label><input type="radio" name="q7" value="0"> No, he’s still arranging it</label>
+    </li><br>
+
+    <li>
+      Is Daniel legally authorized to work in Canada?
+      <br>
+      <label><input type="radio" name="q8" value="1"> Yes, he has a valid work permit</label><br>
+      <label><input type="radio" name="q8" value="0"> No, he needs sponsorship</label><br>
+      <label><input type="radio" name="q8" value="0"> He has an expired visa</label><br>
+      <label><input type="radio" name="q8" value="0"> He applied for PR, still waiting</label>
+    </li>
+  </ol>
+
+  <button type="button" onclick="submitQuiz()">Submit Answers</button>
+  <button type="reset">Reset</button>
+</form>
+
+<p id="quizResult"></p>
+
+<script>
+  function submitQuiz() {
+    const form = document.getElementById('quizForm');
+    const formData = new FormData(form);
+    let correct = 0;
+    const total = 8;
+
+    for (let [key, value] of formData.entries()) {
+      if (value === "1") correct++;
+    }
+
+    const incorrect = total - correct;
+    const resultElement = document.getElementById('quizResult');
+    resultElement.textContent = `Correct: ${correct}, Incorrect: ${incorrect}`;
+
+    if (correct === total) {
+      alert("🎉 Excellent! All answers are correct!");
+    }
+  }
+</script>
+
+
+
+
+<div class="nav-buttons" style="justify-content: center; margin-top: 40px;">
+  <a href="../../../index.html">Home</a>
+  <a href="../index.html">Back</a>
+</div>
+
+
+</body>
+</html>

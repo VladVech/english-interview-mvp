@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnglishJobs - Reading</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: auto;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .logo {
+            font-size: 32px;
+            color: #ff6347;
+            margin-right: auto;
+        }
+        .nav {
+            display: flex;
+            gap: 10px;
+        }
+        .nav a {
+            text-decoration: none;
+            background-color: #fff;
+            padding: 8px 15px;
+            border-radius: 5px;
+            color: #333;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .nav a.active {
+            background-color: #ff6347;
+            color: #fff;
+        }
+        .text {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        .option {
+            background-color: #eaeaea;
+            padding: 8px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 4px 0;
+        }
+        .option.correct { background-color: #c8e6c9; }
+        .option.incorrect { background-color: #ffcdd2; }
+        button {
+            padding: 10px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="logo">EnglishJobs</div>
+        <nav class="nav">
+            <a href="index.html">Listening</a>
+            <a href="reading.html" class="active">Reading</a>
+        </nav>
+    </div>
+
+    <div class="text">
+        <p><strong>Sarah Mitchell:</strong> Hi, is this John?</p>
+        <p><strong>John:</strong> Yes, speaking.</p>
+        <p><strong>Sarah Mitchell:</strong> Hi John, this is Sarah Mitchell calling from TechCore Solutions...</p>
+        <!-- Остальной текст добавляй аналогично -->
+    </div>
+
+    <div id="questions">
+        <!-- Questions will be inserted by JavaScript -->
+    </div>
+
+    <button onclick="submitAnswers()">Submit Answers</button>
+    <button onclick="resetQuiz()">Reset</button>
+
+    <script>
+        const questions = [
+            { question: "Who is calling John?", options: ["Sarah Mitchell", "TechCore receptionist", "HR manager", "Project lead"], correct: 0 },
+            { question: "How long is the screening call expected to last?", options: ["5 minutes", "10-15 minutes", "20 minutes", "30 minutes"], correct: 1 },
+            { question: "What is John's current professional status?", options: ["Employed full-time", "Focusing on projects and professional development", "Unemployed", "Student"], correct: 1 },
+            { question: "Which type of work arrangement does John prefer?", options: ["Only onsite", "Only remote", "Remote or hybrid", "Flexible onsite"], correct: 2 },
+            { question: "What’s most important to John in his next role?", options: ["Salary", "Professional growth", "Location", "Company prestige"], correct: 1 },
+            { question: "When can John start the new role if selected?", options: ["Immediately", "Within a couple of weeks", "After one month", "After three months"], correct: 1 },
+            { question: "Does John currently have offers from other companies?", options: ["Yes, many", "Just a few early conversations", "No discussions at all", "One finalized offer"], correct: 1 },
+            { question: "Does John have questions at the end of the call?", options: ["Yes, several", "No questions", "He forgot to ask", "He asked about benefits"], correct: 1 }
+        ];
+
+        function loadQuestions() {
+            const container = document.getElementById('questions');
+            questions.forEach((q, index) => {
+                let qDiv = document.createElement('div');
+                qDiv.className = 'question';
+                qDiv.innerHTML = `<strong>Question ${index + 1}:</strong> ${q.question}`;
+                q.options.forEach((opt, i) => {
+                    let optDiv = document.createElement('div');
+                    optDiv.className = 'option';
+                    optDiv.textContent = opt;
+                    optDiv.onclick = () => selectOption(qDiv, i);
+                    qDiv.appendChild(optDiv);
+                });
+                container.appendChild(qDiv);
+            });
+        }
+
+        function selectOption(questionDiv, selectedIndex) {
+            [...questionDiv.querySelectorAll('.option')].forEach((opt, index) => {
+                opt.classList.remove('selected');
+                opt.dataset.selected = 'false';
+                if (index === selectedIndex) {
+                    opt.classList.add('selected');
+                    opt.dataset.selected = 'true';
+                }
+            });
+        }
+
+        function submitAnswers() {
+            let score = 0;
+            document.querySelectorAll('.question').forEach((qDiv, index) => {
+                const selected = [...qDiv.querySelectorAll('.option')].find(opt => opt.dataset.selected === 'true');
+                if (selected) {
+                    if ([...qDiv.querySelectorAll('.option')].indexOf(selected) === questions[index].correct) {
+                        selected.classList.add('correct');
+                        score++;
+                    } else {
+                        selected.classList.add('incorrect');
+                        qDiv.querySelectorAll('.option')[questions[index].correct].classList.add('correct');
+                    }
+                }
+            });
+            alert(`Your score: ${score} out of ${questions.length}`);
+        }
+
+        function resetQuiz() {
+            document.getElementById('questions').innerHTML = '';
+            loadQuestions();
+        }
+
+        loadQuestions();
+    </script>
+
+</body>
+</html>

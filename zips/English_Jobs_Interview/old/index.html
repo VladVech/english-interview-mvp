@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listening Exercise</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: auto;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .question {
+            margin-bottom: 15px;
+        }
+        .option {
+            background-color: #eaeaea;
+            padding: 8px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 4px 0;
+        }
+        .option.correct { background-color: #c8e6c9; }
+        .option.incorrect { background-color: #ffcdd2; }
+        button {
+            padding: 10px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Phone Screening Interview</h2>
+
+    <audio controls>
+        <source src="sounds/Phone_Screening_Interview_1.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div id="questions">
+        <!-- Questions will be inserted by JavaScript -->
+    </div>
+
+    <button onclick="submitAnswers()">Submit Answers</button>
+    <button onclick="resetQuiz()">Reset</button>
+
+    <script>
+        const questions = [
+            { question: "Who initiates the phone call?", options: ["Interviewer", "Candidate", "Receptionist", "Manager"], correct: 0 },
+            { question: "What role is the candidate interviewing for?", options: ["Developer", "Designer", "Accountant", "Marketing Specialist"], correct: 0 },
+            { question: "Which skill is NOT discussed during the call?", options: ["Teamwork", "Problem-solving", "Cooking", "Communication"], correct: 2 },
+            { question: "How many years of experience does the candidate have?", options: ["1 year", "3 years", "5 years", "10 years"], correct: 1 },
+            { question: "What is the next step after this call?", options: ["Face-to-face interview", "Another phone call", "Email feedback", "Job offer"], correct: 0 },
+            { question: "How does the candidate describe their teamwork skills?", options: ["Poor", "Good", "Excellent", "Average"], correct: 2 },
+            { question: "What technology does the candidate mention they're proficient in?", options: ["Python", "Photoshop", "Excel", "CAD"], correct: 0 },
+            { question: "What does the interviewer ask about salary?", options: ["Exact number", "Salary range", "Previous salary", "No salary question"], correct: 1 }
+        ];
+
+        function loadQuestions() {
+            const container = document.getElementById('questions');
+            questions.forEach((q, index) => {
+                let qDiv = document.createElement('div');
+                qDiv.className = 'question';
+                qDiv.innerHTML = `<strong>Question ${index + 1}:</strong> ${q.question}`;
+                q.options.forEach((opt, i) => {
+                    let optDiv = document.createElement('div');
+                    optDiv.className = 'option';
+                    optDiv.textContent = opt;
+                    optDiv.onclick = () => selectOption(qDiv, i);
+                    qDiv.appendChild(optDiv);
+                });
+                container.appendChild(qDiv);
+            });
+        }
+
+        function selectOption(questionDiv, selectedIndex) {
+            [...questionDiv.querySelectorAll('.option')].forEach((opt, index) => {
+                opt.classList.remove('selected');
+                opt.dataset.selected = 'false';
+                if (index === selectedIndex) {
+                    opt.classList.add('selected');
+                    opt.dataset.selected = 'true';
+                }
+            });
+        }
+
+        function submitAnswers() {
+            let score = 0;
+            document.querySelectorAll('.question').forEach((qDiv, index) => {
+                const selected = [...qDiv.querySelectorAll('.option')].find(opt => opt.dataset.selected === 'true');
+                if (selected) {
+                    if ([...qDiv.querySelectorAll('.option')].indexOf(selected) === questions[index].correct) {
+                        selected.classList.add('correct');
+                        score++;
+                    } else {
+                        selected.classList.add('incorrect');
+                        qDiv.querySelectorAll('.option')[questions[index].correct].classList.add('correct');
+                    }
+                }
+            });
+            alert(`Your score: ${score} out of ${questions.length}`);
+        }
+
+        function resetQuiz() {
+            document.getElementById('questions').innerHTML = '';
+            loadQuestions();
+        }
+
+        loadQuestions();
+    </script>
+
+</body>
+</html>

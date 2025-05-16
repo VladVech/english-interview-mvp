@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Warehouse Worker - Listening Stage 2_1</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #fefaf6;
+      color: #1f2937;
+      text-align: center;
+    }
+    audio, img {
+      width: 100%;
+      max-width: 350px;
+      margin: 20px auto;
+      display: block;
+      border-radius: 8px;
+    }
+    .nav-buttons {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .nav-buttons a {
+      background: #f97316;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .quiz-section {
+      text-align: left;
+      max-width: 600px;
+      margin: 30px auto;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    .question h3 {
+      margin-bottom: 10px;
+    }
+    .answers label {
+      display: block;
+      margin: 5px 0;
+      cursor: pointer;
+    }
+    .btn-row {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-weight: bold;
+      border: 1px solid #1f2937;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #result {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #1f2937;
+    }
+    .quiz-container {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  padding: 0 16px;
+}
+
+.question {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.question p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.question label {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="nav-buttons">
+    <a href="../../../index.html">Home</a>
+    <a href="../index.html">Back</a>
+  </div>
+
+  <h1>Warehouse Worker - Listening</h1>
+  <h2>Stage 2_1 - Final Interview Round</h2>
+
+  <audio controls>
+    <source src="../audio/warehouse-worker_stage2_1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+<div class="content-wrapper">
+  <div class="image-container">
+    <img src="../images/warehouse-worker_stage2_1.jpg" alt="Warehouse worker during interview" />
+  </div>
+  <div class="quiz-container">
+
+  <form id="quiz">
+    <div class="question" data-correct="b">
+      <p>1. What kind of warehouse has Natalia worked in before?</p>
+      <label><input type="radio" name="q1" value="a"> Electronics storage</label><br>
+      <label><input type="radio" name="q1" value="b"> Food distribution</label><br>
+      <label><input type="radio" name="q1" value="c"> Book warehouse</label><br>
+      <label><input type="radio" name="q1" value="d"> Home supplies</label>
+    </div>
+
+    <div class="question" data-correct="c">
+      <p>2. What tasks did she perform at her previous job?</p>
+      <label><input type="radio" name="q2" value="a"> Packaging returns</label><br>
+      <label><input type="radio" name="q2" value="b"> Scanning invoices</label><br>
+      <label><input type="radio" name="q2" value="c"> Picking, packing, and preparing shipments</label><br>
+      <label><input type="radio" name="q2" value="d"> Driving delivery trucks</label>
+    </div>
+
+    <div class="question" data-correct="a">
+      <p>3. What equipment has Natalia used before?</p>
+      <label><input type="radio" name="q3" value="a"> Manual pallet jacks</label><br>
+      <label><input type="radio" name="q3" value="b"> Electric forklifts only</label><br>
+      <label><input type="radio" name="q3" value="c"> No experience with equipment</label><br>
+      <label><input type="radio" name="q3" value="d"> Barcode labelers</label>
+    </div>
+
+    <div class="question" data-correct="d">
+      <p>4. Is Natalia willing to learn forklift operation?</p>
+      <label><input type="radio" name="q4" value="a"> No, she prefers other roles</label><br>
+      <label><input type="radio" name="q4" value="b"> Only electric pallet jacks</label><br>
+      <label><input type="radio" name="q4" value="c"> Only indoor equipment</label><br>
+      <label><input type="radio" name="q4" value="d"> Yes, she is open to forklift training</label>
+    </div>
+
+    <div class="question" data-correct="b">
+      <p>5. Has she worked in refrigerated environments?</p>
+      <label><input type="radio" name="q5" value="a"> No, she avoids cold areas</label><br>
+      <label><input type="radio" name="q5" value="b"> Yes, in cold storage facilities</label><br>
+      <label><input type="radio" name="q5" value="c"> Only in dry warehouses</label><br>
+      <label><input type="radio" name="q5" value="d"> Sometimes outdoors in winter</label>
+    </div>
+
+    <div class="question" data-correct="c">
+      <p>6. How does she handle cold working conditions?</p>
+      <label><input type="radio" name="q6" value="a"> Takes frequent breaks</label><br>
+      <label><input type="radio" name="q6" value="b"> Drinks warm liquids</label><br>
+      <label><input type="radio" name="q6" value="c"> Dresses warmly and follows safety rules</label><br>
+      <label><input type="radio" name="q6" value="d"> Avoids the cold areas</label>
+    </div>
+
+    <div class="question" data-correct="d">
+      <p>7. What method does Natalia use to stay accurate and fast?</p>
+      <label><input type="radio" name="q7" value="a"> Uses sticky notes</label><br>
+      <label><input type="radio" name="q7" value="b"> Asks team lead often</label><br>
+      <label><input type="radio" name="q7" value="c"> Writes notes manually</label><br>
+      <label><input type="radio" name="q7" value="d"> Double-checks and uses scanning systems</label>
+    </div>
+
+    <div class="question" data-correct="a">
+      <p>8. When will Natalia hear back from the company?</p>
+      <label><input type="radio" name="q8" value="a"> Within a week</label><br>
+      <label><input type="radio" name="q8" value="b"> At the end of the month</label><br>
+      <label><input type="radio" name="q8" value="c"> If she follows up</label><br>
+      <label><input type="radio" name="q8" value="d"> In two weeks</label>
+    </div>
+
+    <div id="result" style="margin-top: 20px; font-weight: bold;"></div>
+
+    <button type="button" onclick="submitQuiz()">Submit Answers</button>
+    <button type="button" onclick="resetQuiz()">Reset</button>
+  </form>
+</div>
+
+
+<p id="quizResult"></p>
+
+<script>
+<>
+function submitQuiz() {
+  const questions = document.querySelectorAll('.question');
+  let correct = 0;
+  let total = questions.length;
+
+  questions.forEach(q => {
+    const selected = q.querySelector('input[type=radio]:checked');
+    if (selected && selected.value === q.dataset.correct) {
+      correct++;
+    }
+  });
+
+  const resultText = `You got ${correct} out of ${total} correct.`;
+  document.getElementById('result').textContent = resultText;
+
+  if (correct === total) {
+    alert("🎉 Congratulations! All answers are correct!");
+  }
+}
+
+function resetQuiz() {
+  const radios = document.querySelectorAll('input[type=radio]');
+  radios.forEach(r => r.checked = false);
+  document.getElementById('result').textContent = '';
+}
+
+</script>
+
+
+
+
+<div class="nav-buttons" style="justify-content: center; margin-top: 40px;">
+  <a href="../../../index.html">Home</a>
+  <a href="../index.html">Back</a>
+</div>
+
+
+</body>
+</html>
