@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title> Warehouse Worker - Listening Stage 2_1</title>
+  <title>Warehouse Worker - Listening Stage 2_1</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -107,115 +107,111 @@
     Your browser does not support the audio element.
   </audio>
 
-<div class="content-wrapper">
-  <div class="image-container">
-    <img src="../images/warehouse-worker_stage2_1.jpg" alt="Warehouse worker during interview" />
-  </div>
-  <div class="quiz-container">
+  <img src="../images/warehouse-worker_stage2_1.jpg" alt="Warehouse worker during interview" />
 
-  <form id="quiz">
-    <div class="question" data-correct="b">
-      <p>1. What kind of warehouse has Natalia worked in before?</p>
-      <label><input type="radio" name="q1" value="a"> Electronics storage</label><br>
-      <label><input type="radio" name="q1" value="b"> Food distribution</label><br>
-      <label><input type="radio" name="q1" value="c"> Book warehouse</label><br>
-      <label><input type="radio" name="q1" value="d"> Home supplies</label>
-    </div>
+  <div class="quiz-section" id="quiz">
+    <!-- Вопросы -->
+    <form id="quizForm">
+  <ol>
+  <li>
+    What kind of warehouse has Natalia worked in before?
+    <br>
+    <label><input type="radio" name="q1" value="0"> Electronics storage</label><br>
+    <label><input type="radio" name="q1" value="1"> Food distribution</label><br>
+    <label><input type="radio" name="q1" value="0"> Book warehouse</label><br>
+    <label><input type="radio" name="q1" value="0"> Home supplies</label>
+  </li><br>
 
-    <div class="question" data-correct="c">
-      <p>2. What tasks did she perform at her previous job?</p>
-      <label><input type="radio" name="q2" value="a"> Packaging returns</label><br>
-      <label><input type="radio" name="q2" value="b"> Scanning invoices</label><br>
-      <label><input type="radio" name="q2" value="c"> Picking, packing, and preparing shipments</label><br>
-      <label><input type="radio" name="q2" value="d"> Driving delivery trucks</label>
-    </div>
+  <li>
+    What tasks did she perform at her previous job?
+    <br>
+    <label><input type="radio" name="q2" value="0"> Packaging returns</label><br>
+    <label><input type="radio" name="q2" value="1"> Picking, packing and preparing shipments</label><br>
+    <label><input type="radio" name="q2" value="0"> Customer service</label><br>
+    <label><input type="radio" name="q2" value="0"> Stocktaking only</label>
+  </li><br>
 
-    <div class="question" data-correct="a">
-      <p>3. What equipment has Natalia used before?</p>
-      <label><input type="radio" name="q3" value="a"> Manual pallet jacks</label><br>
-      <label><input type="radio" name="q3" value="b"> Electric forklifts only</label><br>
-      <label><input type="radio" name="q3" value="c"> No experience with equipment</label><br>
-      <label><input type="radio" name="q3" value="d"> Barcode labelers</label>
-    </div>
+  <li>
+    Has Natalia used pallet jacks before?
+    <br>
+    <label><input type="radio" name="q3" value="1"> Yes, manual jacks</label><br>
+    <label><input type="radio" name="q3" value="0"> No, only electric ones</label><br>
+    <label><input type="radio" name="q3" value="0"> She has never used them</label><br>
+    <label><input type="radio" name="q3" value="0"> No, but she refused training</label>
+  </li><br>
 
-    <div class="question" data-correct="d">
-      <p>4. Is Natalia willing to learn forklift operation?</p>
-      <label><input type="radio" name="q4" value="a"> No, she prefers other roles</label><br>
-      <label><input type="radio" name="q4" value="b"> Only electric pallet jacks</label><br>
-      <label><input type="radio" name="q4" value="c"> Only indoor equipment</label><br>
-      <label><input type="radio" name="q4" value="d"> Yes, she is open to forklift training</label>
-    </div>
+  <li>
+    What is she open to training on?
+    <br>
+    <label><input type="radio" name="q4" value="0"> Scanning tools</label><br>
+    <label><input type="radio" name="q4" value="0"> Temperature control</label><br>
+    <label><input type="radio" name="q4" value="1"> Forklifts</label><br>
+    <label><input type="radio" name="q4" value="0"> Truck driving</label>
+  </li><br>
 
-    <div class="question" data-correct="b">
-      <p>5. Has she worked in refrigerated environments?</p>
-      <label><input type="radio" name="q5" value="a"> No, she avoids cold areas</label><br>
-      <label><input type="radio" name="q5" value="b"> Yes, in cold storage facilities</label><br>
-      <label><input type="radio" name="q5" value="c"> Only in dry warehouses</label><br>
-      <label><input type="radio" name="q5" value="d"> Sometimes outdoors in winter</label>
-    </div>
+  <li>
+    Has she worked in a cold or loud environment?
+    <br>
+    <label><input type="radio" name="q5" value="0"> No, only office spaces</label><br>
+    <label><input type="radio" name="q5" value="1"> Yes, in cold storage</label><br>
+    <label><input type="radio" name="q5" value="0"> No, only in retail</label><br>
+    <label><input type="radio" name="q5" value="0"> She worked outdoors</label>
+  </li><br>
 
-    <div class="question" data-correct="c">
-      <p>6. How does she handle cold working conditions?</p>
-      <label><input type="radio" name="q6" value="a"> Takes frequent breaks</label><br>
-      <label><input type="radio" name="q6" value="b"> Drinks warm liquids</label><br>
-      <label><input type="radio" name="q6" value="c"> Dresses warmly and follows safety rules</label><br>
-      <label><input type="radio" name="q6" value="d"> Avoids the cold areas</label>
-    </div>
+  <li>
+    How does she manage cold conditions?
+    <br>
+    <label><input type="radio" name="q6" value="0"> Avoids cold shifts</label><br>
+    <label><input type="radio" name="q6" value="1"> Dresses warm and follows safety instructions</label><br>
+    <label><input type="radio" name="q6" value="0"> Drinks hot water only</label><br>
+    <label><input type="radio" name="q6" value="0"> Uses heating pads</label>
+  </li><br>
 
-    <div class="question" data-correct="d">
-      <p>7. What method does Natalia use to stay accurate and fast?</p>
-      <label><input type="radio" name="q7" value="a"> Uses sticky notes</label><br>
-      <label><input type="radio" name="q7" value="b"> Asks team lead often</label><br>
-      <label><input type="radio" name="q7" value="c"> Writes notes manually</label><br>
-      <label><input type="radio" name="q7" value="d"> Double-checks and uses scanning systems</label>
-    </div>
+  <li>
+    What tools does she use to ensure accuracy?
+    <br>
+    <label><input type="radio" name="q7" value="0"> Paper lists</label><br>
+    <label><input type="radio" name="q7" value="0"> Barcode printer</label><br>
+    <label><input type="radio" name="q7" value="1"> Scanning systems</label><br>
+    <label><input type="radio" name="q7" value="0"> Verbal confirmation</label>
+  </li><br>
 
-    <div class="question" data-correct="a">
-      <p>8. When will Natalia hear back from the company?</p>
-      <label><input type="radio" name="q8" value="a"> Within a week</label><br>
-      <label><input type="radio" name="q8" value="b"> At the end of the month</label><br>
-      <label><input type="radio" name="q8" value="c"> If she follows up</label><br>
-      <label><input type="radio" name="q8" value="d"> In two weeks</label>
-    </div>
+  <li>
+    What’s her method to reduce errors?
+    <br>
+    <label><input type="radio" name="q8" value="0"> Asks a coworker to double-check</label><br>
+    <label><input type="radio" name="q8" value="0"> Avoids fast work</label><br>
+    <label><input type="radio" name="q8" value="1"> Double-checks items</label><br>
+    <label><input type="radio" name="q8" value="0"> Uses memory only</label>
+  </li>
+</ol>
 
-    <div id="result" style="margin-top: 20px; font-weight: bold;"></div>
 
-    <button type="button" onclick="submitQuiz()">Submit Answers</button>
-    <button type="button" onclick="resetQuiz()">Reset</button>
-  </form>
-</div>
-
+  <button type="button" onclick="submitQuiz()">Submit Answers</button>
+  <button type="reset">Reset</button>
+</form>
 
 <p id="quizResult"></p>
 
 <script>
-<>
-function submitQuiz() {
-  const questions = document.querySelectorAll('.question');
-  let correct = 0;
-  let total = questions.length;
+  function submitQuiz() {
+    const form = document.getElementById('quizForm');
+    const formData = new FormData(form);
+    let correct = 0;
+    const total = 8;
 
-  questions.forEach(q => {
-    const selected = q.querySelector('input[type=radio]:checked');
-    if (selected && selected.value === q.dataset.correct) {
-      correct++;
+    for (let [key, value] of formData.entries()) {
+      if (value === "1") correct++;
     }
-  });
 
-  const resultText = `You got ${correct} out of ${total} correct.`;
-  document.getElementById('result').textContent = resultText;
+    const incorrect = total - correct;
+    const resultElement = document.getElementById('quizResult');
+    resultElement.textContent = `Correct: ${correct}, Incorrect: ${incorrect}`;
 
-  if (correct === total) {
-    alert("🎉 Congratulations! All answers are correct!");
+    if (correct === total) {
+      alert("🎉 Excellent! All answers are correct!");
+    }
   }
-}
-
-function resetQuiz() {
-  const radios = document.querySelectorAll('input[type=radio]');
-  radios.forEach(r => r.checked = false);
-  document.getElementById('result').textContent = '';
-}
-
 </script>
 
 
