@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Warehouse Worker - Listening Stage 2_2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #fefaf6;
+      color: #1f2937;
+      text-align: center;
+    }
+    audio, img {
+      width: 100%;
+      max-width: 350px;
+      margin: 20px auto;
+      display: block;
+      border-radius: 8px;
+    }
+    .nav-buttons {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .nav-buttons a {
+      background: #f97316;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .quiz-section {
+      text-align: left;
+      max-width: 600px;
+      margin: 30px auto;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    .question h3 {
+      margin-bottom: 10px;
+    }
+    .answers label {
+      display: block;
+      margin: 5px 0;
+      cursor: pointer;
+    }
+    .btn-row {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-weight: bold;
+      border: 1px solid #1f2937;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #result {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #1f2937;
+    }
+    .quiz-container {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  padding: 0 16px;
+}
+
+.question {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.question p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.question label {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="nav-buttons">
+    <a href="../../../index.html">Home</a>
+    <a href="../index.html">Back</a>
+  </div>
+
+  <h1>Warehouse Worker - Listening</h1>
+  <h2>Stage 2_2 – Final Interview Round</h2>
+
+<div class="intro-text" style="max-width: 700px; margin: 20px auto; text-align: center; font-size: 1.1em; color: #1f2937;">
+  <p>Improve your English by listening to real spoken texts and answering questions to check your understanding.
+  Practice at your own pace and get immediate feedback.</p>
+  <p>Listen carefully and test how well you’ve understood — with instant feedback.</p>
+</div>
+
+  
+
+  <audio controls>
+    <source src="../audio/warehouse-worker_stage2_2.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <img src="../images/warehouse-worker_stage2_2.jpg" alt="Warehouse worker during interview" />
+
+  <div class="quiz-section" id="quiz">
+    <!-- Вопросы -->
+    <form id="quizForm">
+  <ol>
+  <li>
+    Where has Tomasz previously worked in warehouses?
+    <br>
+    <label><input type="radio" name="q1" value="0"> Germany and Canada</label><br>
+    <label><input type="radio" name="q1" value="1"> Poland and the UK</label><br>
+    <label><input type="radio" name="q1" value="0"> Italy and France</label><br>
+    <label><input type="radio" name="q1" value="0"> USA and Poland</label>
+  </li><br>
+
+  <li>
+    What were Tomasz’s typical shift responsibilities?
+    <br>
+    <label><input type="radio" name="q2" value="0"> Supervising and report writing</label><br>
+    <label><input type="radio" name="q2" value="1"> Picking, scanning, wrapping pallets, loading trucks</label><br>
+    <label><input type="radio" name="q2" value="0"> Only operating forklifts</label><br>
+    <label><input type="radio" name="q2" value="0"> Customer service</label>
+  </li><br>
+
+  <li>
+    How does Tomasz stay organized during busy shifts?
+    <br>
+    <label><input type="radio" name="q3" value="1"> Double-checks labels and groups items smartly</label><br>
+    <label><input type="radio" name="q3" value="0"> Finishes tasks as quickly as possible</label><br>
+    <label><input type="radio" name="q3" value="0"> Avoids interacting with coworkers</label><br>
+    <label><input type="radio" name="q3" value="0"> Waits for supervisor instruction every time</label>
+  </li><br>
+
+  <li>
+    How did Tomasz handle a disagreement at work?
+    <br>
+    <label><input type="radio" name="q4" value="0"> He left the shift early</label><br>
+    <label><input type="radio" name="q4" value="1"> He stayed calm and resolved it with the supervisor</label><br>
+    <label><input type="radio" name="q4" value="0"> He ignored the issue</label><br>
+    <label><input type="radio" name="q4" value="0"> He escalated it to HR immediately</label>
+  </li><br>
+
+  <li>
+    Is Tomasz open to working overtime or weekends?
+    <br>
+    <label><input type="radio" name="q5" value="1"> Yes, he’s open to extra hours</label><br>
+    <label><input type="radio" name="q5" value="0"> No, he prefers only weekdays</label><br>
+    <label><input type="radio" name="q5" value="0"> Only if he gets bonuses</label><br>
+    <label><input type="radio" name="q5" value="0"> Only in emergencies</label>
+  </li><br>
+
+  <li>
+    What tools has Tomasz used in the warehouse?
+    <br>
+    <label><input type="radio" name="q6" value="0"> Just paper and pen</label><br>
+    <label><input type="radio" name="q6" value="0"> None, he’s new to warehouses</label><br>
+    <label><input type="radio" name="q6" value="1"> Handheld scanners and warehouse software</label><br>
+    <label><input type="radio" name="q6" value="0"> Only mobile apps</label>
+  </li><br>
+
+  <li>
+    Is Tomasz willing to learn new systems?
+    <br>
+    <label><input type="radio" name="q7" value="1"> Yes, he learns quickly</label><br>
+    <label><input type="radio" name="q7" value="0"> No, he prefers what he knows</label><br>
+    <label><input type="radio" name="q7" value="0"> Only if trained one-on-one</label><br>
+    <label><input type="radio" name="q7" value="0"> Not mentioned</label>
+  </li><br>
+
+  <li>
+    When can Tomasz start the job?
+    <br>
+    <label><input type="radio" name="q8" value="1"> As soon as needed</label><br>
+    <label><input type="radio" name="q8" value="0"> In a few weeks</label><br>
+    <label><input type="radio" name="q8" value="0"> Next month</label><br>
+    <label><input type="radio" name="q8" value="0"> No specific time mentioned</label>
+  </li>
+</ol>
+
+
+
+  <button type="button" onclick="submitQuiz()">Submit Answers</button>
+  <button type="reset">Reset</button>
+</form>
+
+<p id="quizResult"></p>
+
+<script>
+  function submitQuiz() {
+    const form = document.getElementById('quizForm');
+    const formData = new FormData(form);
+    let correct = 0;
+    const total = 8;
+
+    for (let [key, value] of formData.entries()) {
+      if (value === "1") correct++;
+    }
+
+    const incorrect = total - correct;
+    const resultElement = document.getElementById('quizResult');
+    resultElement.textContent = `Correct: ${correct}, Incorrect: ${incorrect}`;
+
+    if (correct === total) {
+      alert("🎉 Excellent! All answers are correct!");
+    }
+  }
+</script>
+
+
+
+
+<div class="nav-buttons" style="justify-content: center; margin-top: 40px;">
+  <a href="../../../index.html">Home</a>
+  <a href="../index.html">Back</a>
+</div>
+
+
+</body>
+</html>
