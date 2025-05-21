@@ -70,6 +70,11 @@
   display: block;
   margin: 20px auto;
 }
+.audio-center {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
 
   </style>
 </head>
@@ -170,6 +175,12 @@
       <button onclick="submitGrammarQuiz()">Submit Answers</button>
       <button onclick="resetGrammarQuiz()">Reset</button>
     </div>
+<div class="audio-center">
+  <audio controls>
+    <source src="../audio/cleaner_stage1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</div>
 
     <div class="nav-buttons">
       <a href="../../index.html" class="orange-button">Home</a>
