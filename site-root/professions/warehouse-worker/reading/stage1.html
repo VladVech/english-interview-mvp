@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Warehouse Worker - Reading Stage 1</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf9f4;
+      margin: 20px;
+      color: #1d1d1f;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #1d1d1f;
+    }
+    audio, img {
+      width: 100%;
+      max-width: 350px;
+      margin: 20px auto;
+      display: block;
+      border-radius: 8px;
+    }
+    .description {
+      text-align: center;
+      margin: 20px auto;
+      max-width: 600px;
+    }
+    .text-block {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      max-width: 800px;
+      line-height: 1.6;
+    }
+    .nav-buttons {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .nav-buttons a {
+      background: #f97316;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .quiz-section {
+      text-align: left;
+      max-width: 600px;
+      margin: 30px auto;
+    }
+    ol {
+      max-width: 800px;
+      margin: 0 auto 40px auto;
+    }
+    li {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-left: 20px;
+    }
+    .btn-row {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-weight: bold;
+      border: 1px solid #1f2937;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #result {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #1f2937;
+    }
+    .quiz-container {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  padding: 0 16px;
+}
+
+.question {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.question p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.question label {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+ol {
+      max-width: 800px;
+      margin: 0 auto 40px auto;
+    }
+    li {
+      margin-bottom: 20px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="nav-buttons">
+    <a href="../index.html">Back</a>
+    <a href="../../../index.html">Home</a>
+    
+  </div>
+
+  <h1>Warehouse Worker - Reading</h1>
+  <h2>Stage 1 - Phone Screening Interview</h2>
+<div class="description">
+    Improve your English by reading real-life interview scenarios and answering questions to test your understanding. Build confidence with instant feedback and practical vocabulary.
+  </div>
+  <img src="../images/warehouse-worker_stage1r.jpg" alt="Warehouse Worker at work">
+<div class="text-block">
+  <p>Good morning, am I speaking with Daniel?</p>
+  <p><strong>Yes, this is Daniel.</strong></p>
+
+  <p>Hi Daniel, this is Michelle calling from Swift Logistics. I hope I’m not catching you at a bad time.</p>
+  <p><strong>No, it's a good time. Thank you.</strong></p>
+
+  <p>Great. I’m reaching out regarding the warehouse associate position you applied for. This is a short screening call just to get to know your background a bit and see if this could be a good fit.</p>
+  <p><strong>Sure, sounds good.</strong></p>
+
+  <p>Can you tell me a little about your previous warehouse experience?</p>
+  <p><strong>Yes, I’ve worked in warehouse roles for about 4 years, mostly in Poland and the UK. I handled packing, inventory, loading/unloading, and forklift operations.</strong></p>
+
+  <p>Do you currently hold any certifications, like forklift operation or WHMIS?</p>
+  <p><strong>I have a forklift license from Europe, but not a Canadian one yet. I’m open to taking the training here.</strong></p>
+
+  <p>Are you comfortable working in a fast-paced environment and standing for long periods?</p>
+  <p><strong>Yes, I’m used to physical work. It’s never been a problem.</strong></p>
+
+  <p>Have you worked with inventory systems or scanners?</p>
+  <p><strong>Yes, I used handheld scanners and basic tracking software before.</strong></p>
+
+  <p>Are you open to shift work, including evenings or weekends if needed?</p>
+  <p><strong>Yes, I’m very flexible with hours.</strong></p>
+
+  <p>Do you have reliable transportation to and from the warehouse location?</p>
+  <p><strong>Yes, I do.</strong></p>
+
+  <p>And just to confirm, you’re legally authorized to work in Canada?</p>
+  <p><strong>Yes, I hold a valid work permit.</strong></p>
+
+  <p>Excellent. Based on what you’ve shared, your background sounds like it could be a great match. We'll be reviewing all candidates over the next few days.</p>
+  <p><strong>Thank you. I appreciate the opportunity.</strong></p>
+</div>
+
+  <audio controls>
+    <source src="../audio/warehouse-worker_stage1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+
+
+  <div class="quiz-section" id="quiz">
+    <!-- Вопросы -->
+    <form id="quizForm">
+<ol>
+
+
+  <li>
+    <strong>What kind of tasks did Daniel perform?</strong><br>
+    <label><input type="radio" name="q2" value="0"> Customer service and stocking shelves</label>
+    <label><input type="radio" name="q2" value="0"> Office paperwork and delivery</label>
+    <label><input type="radio" name="q2" value="1"> Packing, inventory, loading/unloading, forklift operations</label>
+    <label><input type="radio" name="q2" value="0"> Truck driving and maintenance</label>
+  </li>
+
+  <li>
+    <strong>Does Daniel have a Canadian forklift license?</strong><br>
+    
+    <label><input type="radio" name="q3" value="1"> No, only European license</label>
+    <label><input type="radio" name="q3" value="0"> Yes, Canadian and European licenses</label>
+    <label><input type="radio" name="q3" value="0"> No, only US certification</label>
+    <label><input type="radio" name="q3" value="0"> Not certified at all</label>
+  </li>
+
+   <li>
+    <strong>What kind of inventory tools has Daniel used?</strong><br>
+    <label><input type="radio" name="q6" value="1"> Handheld scanners and basic tracking software</label>
+    <label><input type="radio" name="q6" value="0"> Voice recognition systems</label>
+    <label><input type="radio" name="q6" value="0"> Only paper logs</label>
+    <label><input type="radio" name="q6" value="0"> None</label>
+  </li>
+
+  <li>
+    <strong>Does Daniel have reliable transportation?</strong><br>
+    
+    <label><input type="radio" name="q8" value="0"> Only public transport</label>
+    <label><input type="radio" name="q8" value="0"> He carpools</label>
+    <label><input type="radio" name="q8" value="1"> Yes, he does</label>
+    <label><input type="radio" name="q8" value="0"> No, still arranging it</label>
+  </li>
+</ol>
+
+
+
+
+
+  <button type="button" onclick="submitQuiz()">Submit Answers</button>
+  <button type="reset">Reset</button>
+</form>
+
+<p id="quizResult"></p>
+
+<script>
+  function submitQuiz() {
+    const form = document.getElementById('quizForm');
+    const formData = new FormData(form);
+    let correct = 0;
+    const total = 4;
+
+    for (let [key, value] of formData.entries()) {
+      if (value === "1") correct++;
+    }
+
+    const incorrect = total - correct;
+    const resultElement = document.getElementById('quizResult');
+    resultElement.textContent = `Correct: ${correct}, Incorrect: ${incorrect}`;
+
+    if (correct === total) {
+      alert("🎉 Excellent! All answers are correct!");
+    }
+  }
+</script>
+
+
+
+
+<div class="nav-buttons" style="justify-content: center; margin-top: 40px;">
+  
+  <a href="../index.html">Back</a>
+  <a href="../../../index.html">Home</a>
+</div>
+
+
+</body>
+</html>
