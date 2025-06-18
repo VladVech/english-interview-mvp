@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Housekeeper - Listening Stage 2_2</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #fefaf6;
+      color: #1f2937;
+      text-align: center;
+    }
+    audio, img {
+      width: 100%;
+      max-width: 350px;
+      margin: 20px auto;
+      display: block;
+      border-radius: 8px;
+    }
+    .nav-buttons {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .nav-buttons a {
+      background: #f97316;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .quiz-section {
+      text-align: left;
+      max-width: 600px;
+      margin: 30px auto;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    .question h3 {
+      margin-bottom: 10px;
+    }
+    .answers label {
+      display: block;
+      margin: 5px 0;
+      cursor: pointer;
+    }
+    .btn-row {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-weight: bold;
+      border: 1px solid #1f2937;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #result {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #1f2937;
+    }
+    .quiz-container {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  padding: 0 16px;
+}
+
+.question {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.question p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.question label {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="nav-buttons">
+    <a href="../index.html">Back</a>
+    <a href="../../../index.html">Home</a>
+    
+  </div>
+
+  <h1>Hotel Housekeeper - Listening</h1>
+  <h2>Stage 2_2 - Final Interview Round</h2>
+<div class="intro-text" style="max-width: 700px; margin: 20px auto; text-align: center; font-size: 1.1em; color: #1f2937;">
+  <p>Improve your English by listening to real spoken texts and answering questions to check your understanding.
+  Practice at your own pace and get immediate feedback.</p>
+  <p>Listen carefully and test how well you’ve understood — with instant feedback.</p>
+</div>
+  <audio controls>
+    <source src="../audio/hotel_housekeeper_stage2_2.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <img src="../images/hotel_housekeeper_stage2_2.jpg" alt="Cleaning Specialist during interview" />
+
+  <div class="quiz-section" id="quiz">
+    <!-- Вопросы -->
+    <form id="quizForm">
+<ol>
+  <li>
+    <strong>What does Viktor consider essential when working with staff or guests?</strong><br>
+    <label><input type="radio" name="q1" value="0"> Following written instructions strictly</label><br>
+    <label><input type="radio" name="q1" value="1"> Effective communication</label><br>
+    <label><input type="radio" name="q1" value="0"> Using only eco-friendly supplies</label><br>
+    <label><input type="radio" name="q1" value="0"> Avoiding personal interactions</label>
+  </li><br>
+
+  <li>
+    <strong>How did Viktor resolve a conflict about room assignments?</strong><br>
+    <label><input type="radio" name="q2" value="0"> He called his manager and asked them to decide</label><br>
+    <label><input type="radio" name="q2" value="1"> He clarified the schedule and offered to collaborate</label><br>
+    <label><input type="radio" name="q2" value="0"> He avoided the situation completely</label><br>
+    <label><input type="radio" name="q2" value="0"> He insisted the room was his responsibility</label>
+  </li><br>
+
+  <li>
+    <strong>What is Viktor’s attitude toward receiving criticism?</strong><br>
+    <label><input type="radio" name="q3" value="1"> He sees it as a way to improve and aligns with expectations</label><br>
+    <label><input type="radio" name="q3" value="0"> He ignores it unless it's repeated</label><br>
+    <label><input type="radio" name="q3" value="0"> He feels uncomfortable and avoids those supervisors</label><br>
+    <label><input type="radio" name="q3" value="0"> He only accepts feedback from senior management</label>
+  </li><br>
+
+  <li>
+    <strong>How does Viktor manage time when several rooms must be cleaned quickly?</strong><br>
+    <label><input type="radio" name="q4" value="0"> He skips some rooms to finish on time</label><br>
+    <label><input type="radio" name="q4" value="0"> He asks coworkers to clean his rooms</label><br>
+    <label><input type="radio" name="q4" value="1"> He prioritizes based on check-ins and room types</label><br>
+    <label><input type="radio" name="q4" value="0"> He finishes the easiest rooms first</label>
+  </li><br>
+
+  <li>
+    <strong>What does Viktor do if a guest reports a missing item?</strong><br>
+    <label><input type="radio" name="q5" value="1"> He apologizes and alerts his supervisor immediately</label><br>
+    <label><input type="radio" name="q5" value="0"> He denies any responsibility and leaves</label><br>
+    <label><input type="radio" name="q5" value="0"> He tells the guest to come back later</label><br>
+    <label><input type="radio" name="q5" value="0"> He searches the guest’s bags first</label>
+  </li><br>
+
+  <li>
+    <strong>What keeps Viktor motivated during long shifts?</strong><br>
+    <label><input type="radio" name="q6" value="0"> Frequent breaks and phone use</label><br>
+    <label><input type="radio" name="q6" value="1"> Thinking about guest comfort and quality of service</label><br>
+    <label><input type="radio" name="q6" value="0"> Listening to music loudly</label><br>
+    <label><input type="radio" name="q6" value="0"> Finishing as quickly as possible</label>
+  </li><br>
+
+  <li>
+    <strong>What did Viktor ask about at the end of the interview?</strong><br>
+    <label><input type="radio" name="q7" value="0"> Parking availability</label><br>
+    <label><input type="radio" name="q7" value="0"> Flexible vacation dates</label><br>
+    <label><input type="radio" name="q7" value="1"> Opportunities for promotion or cross-training</label><br>
+    <label><input type="radio" name="q7" value="0"> Early retirement options</label>
+  </li><br>
+
+  <li>
+    <strong>What did the interviewer say about career development?</strong><br>
+    <label><input type="radio" name="q8" value="0"> It depends on availability only</label><br>
+    <label><input type="radio" name="q8" value="0"> Only senior staff get promoted</label><br>
+    <label><input type="radio" name="q8" value="1"> The hotel promotes from within for committed employees</label><br>
+    <label><input type="radio" name="q8" value="0"> No such programs are currently offered</label>
+  </li>
+</ol>
+
+
+
+
+
+  <button type="button" onclick="submitQuiz()">Submit Answers</button>
+  <button type="reset">Reset</button>
+</form>
+
+<p id="quizResult"></p>
+
+<script>
+  function submitQuiz() {
+    const form = document.getElementById('quizForm');
+    const formData = new FormData(form);
+    let correct = 0;
+    const total = 8;
+
+    for (let [key, value] of formData.entries()) {
+      if (value === "1") correct++;
+    }
+
+    const incorrect = total - correct;
+    const resultElement = document.getElementById('quizResult');
+    resultElement.textContent = `Correct: ${correct}, Incorrect: ${incorrect}`;
+
+    if (correct === total) {
+      alert("🎉 Excellent! All answers are correct!");
+    }
+  }
+</script>
+
+
+
+
+<div class="nav-buttons" style="justify-content: center; margin-top: 40px;">
+  
+  <a href="../index.html">Back</a>
+  <a href="../../../index.html">Home</a>
+</div>
+
+
+</body>
+</html>
