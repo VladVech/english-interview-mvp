@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Housekeeper - Reading Stage 1</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf9f4;
+      margin: 20px;
+      color: #1d1d1f;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #1d1d1f;
+    }
+    audio, img {
+      width: 100%;
+      max-width: 350px;
+      margin: 20px auto;
+      display: block;
+      border-radius: 8px;
+    }
+    .description {
+      text-align: center;
+      margin: 20px auto;
+      max-width: 600px;
+    }
+    .text-block {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      max-width: 800px;
+      line-height: 1.6;
+    }
+    .nav-buttons {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .nav-buttons a {
+      background: #f97316;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .quiz-section {
+      text-align: left;
+      max-width: 600px;
+      margin: 30px auto;
+    }
+    ol {
+      max-width: 800px;
+      margin: 0 auto 40px auto;
+    }
+    li {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-left: 20px;
+    }
+    .btn-row {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-weight: bold;
+      border: 1px solid #1f2937;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #result {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #1f2937;
+    }
+    .quiz-container {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  padding: 0 16px;
+}
+
+.question {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.question p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.question label {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+ol {
+      max-width: 800px;
+      margin: 0 auto 40px auto;
+    }
+    li {
+      margin-bottom: 20px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="nav-buttons">
+    <a href="../index.html">Back</a>
+    <a href="../../../index.html">Home</a>
+    
+  </div>
+
+  <h1>Cleaning Specialist - Reading</h1>
+  <h2>Stage 1 - Phone Screening Interview</h2>
+<div class="description">
+    Improve your English by reading real-life interview scenarios and answering questions to test your understanding. Build confidence with instant feedback and practical vocabulary.
+  </div>
+  <img src="../images/hotel_housekeeper_stage1r.jpg" alt="Hotel Housekeeper at work">
+ <div class="text-block">
+  <div>
+  <p>Hi, is this Anna?</p>
+  <p><strong>Yes, speaking.</strong></p>
+  <p>Hi Anna, this is Rebecca from Mapleview Hotel. Is now a good time for a short phone interview?</p>
+  <p><strong>Yes, of course.</strong></p>
+  <p>Great. Can you tell me about your housekeeping experience?</p>
+  <p><strong>I've worked in hotels in Ukraine and Poland for about 5 years. Mostly doing room cleaning and laundry.</strong></p>
+  <p>What kind of tasks are you most confident with?</p>
+  <p><strong>Making beds, cleaning bathrooms, vacuuming, dusting, and restocking room supplies.</strong></p>
+  <p>Have you worked with hotel cleaning checklists before?</p>
+  <p><strong>Yes, I'm familiar with daily and deep-cleaning procedures.</strong></p>
+  <p>Do you have any local certificates or safety training, like WHMIS?</p>
+  <p><strong>Not yet, but I'm happy to complete training if needed.</strong></p>
+  <p>Are you comfortable working weekends or holidays?</p>
+  <p><strong>Yes, I'm flexible with shifts.</strong></p>
+  <p>Are you able to stand or walk for long hours?</p>
+  <p><strong>Yes, I'm used to physical work.</strong></p>
+  <p>When would you be available to start?</p>
+  <p><strong>Right away. I'm fully available and ready to work.</strong></p>
+  <p>Thank you, Anna. We'll be in touch soon.</p>
+  <p><strong>Thank you! I'm excited about the opportunity.</strong></p>
+</div>
+
+  <audio controls>
+    <source src="../audio/hotel_housekeeper_stage1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+
+
+  <div class="quiz-section" id="quiz">
+    <!-- Вопросы -->
+    <form id="quizForm">
+<ol>
+  <li>
+    <strong>Where has Anna worked before?</strong><br>
+    <label><input type="radio" name="q1" value="1"> In Ukraine and Poland</label><br>
+    <label><input type="radio" name="q1" value="0"> In Canada and Poland</label><br>
+    <label><input type="radio" name="q1" value="0"> Only in Poland</label><br>
+    <label><input type="radio" name="q1" value="0"> In Canada and Ukraine</label>
+  </li><br>
+
+  <li>
+    <strong>What housekeeping tasks is Anna confident with?</strong><br>
+    <label><input type="radio" name="q2" value="1"> Beds, bathrooms, vacuuming, dusting, and restocking</label><br>
+    <label><input type="radio" name="q2" value="0"> Cooking, ironing, and laundry</label><br>
+    <label><input type="radio" name="q2" value="0"> Reception and bookings</label><br>
+    <label><input type="radio" name="q2" value="0"> Painting and repairs</label>
+  </li><br>
+
+  <li>
+    <strong>Has Anna worked with hotel cleaning checklists before?</strong><br>
+    <label><input type="radio" name="q3" value="1"> Yes, she knows daily and deep-cleaning procedures</label><br>
+    <label><input type="radio" name="q3" value="0"> No, but she has experience in offices</label><br>
+    <label><input type="radio" name="q3" value="0"> No, she prefers her own method</label><br>
+    <label><input type="radio" name="q3" value="0"> Only in restaurants</label>
+  </li><br>
+
+  <li>
+    <strong>Does Anna have any local safety training?</strong><br>
+    <label><input type="radio" name="q4" value="1"> No, but she is willing to take training</label><br>
+    <label><input type="radio" name="q4" value="0"> Yes, she has WHMIS and First Aid</label><br>
+    <label><input type="radio" name="q4" value="0"> No, and she is not interested</label><br>
+    <label><input type="radio" name="q4" value="0"> Only CPR certificate</label>
+  </li><br>
+
+  <li>
+    <strong>When is Anna available to start work?</strong><br>
+    <label><input type="radio" name="q5" value="1"> Right away</label><br>
+    <label><input type="radio" name="q5" value="0"> In one week</label><br>
+    <label><input type="radio" name="q5" value="0"> After her WHMIS training</label><br>
+    <label><input type="radio" name="q5" value="0"> Next month</label>
+  </li>
+</ol>
+
+
+
+
+
+  <button type="button" onclick="submitQuiz()">Submit Answers</button>
+  <button type="reset">Reset</button>
+</form>
+
+<p id="quizResult"></p>
+
+<script>
+  function submitQuiz() {
+    const form = document.getElementById('quizForm');
+    const formData = new FormData(form);
+    let correct = 0;
+    const total = 4;
+
+    for (let [key, value] of formData.entries()) {
+      if (value === "1") correct++;
+    }
+
+    const incorrect = total - correct;
+    const resultElement = document.getElementById('quizResult');
+    resultElement.textContent = `Correct: ${correct}, Incorrect: ${incorrect}`;
+
+    if (correct === total) {
+      alert("🎉 Excellent! All answers are correct!");
+    }
+  }
+</script>
+
+
+
+
+<div class="nav-buttons" style="justify-content: center; margin-top: 40px;">
+  
+  <a href="../index.html">Back</a>
+  <a href="../../../index.html">Home</a>
+</div>
+
+
+</body>
+</html>
