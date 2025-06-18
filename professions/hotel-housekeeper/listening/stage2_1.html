@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cleaning Specialist - Listening Stage 2_1</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #fefaf6;
+      color: #1f2937;
+      text-align: center;
+    }
+    audio, img {
+      width: 100%;
+      max-width: 350px;
+      margin: 20px auto;
+      display: block;
+      border-radius: 8px;
+    }
+    .nav-buttons {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .nav-buttons a {
+      background: #f97316;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .quiz-section {
+      text-align: left;
+      max-width: 600px;
+      margin: 30px auto;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    .question h3 {
+      margin-bottom: 10px;
+    }
+    .answers label {
+      display: block;
+      margin: 5px 0;
+      cursor: pointer;
+    }
+    .btn-row {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-weight: bold;
+      border: 1px solid #1f2937;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #result {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #1f2937;
+    }
+    .quiz-container {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  padding: 0 16px;
+}
+
+.question {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.question p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.question label {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+
+  </style>
+</head>
+<body>
+
+  <div class="nav-buttons">
+    <a href="../index.html">Back</a>
+    <a href="../../../index.html">Home</a>
+    
+  </div>
+
+  <h1>Cleaning Specialist - Listening</h1>
+  <h2>Stage 2_1 - Final Interview Round</h2>
+<div class="intro-text" style="max-width: 700px; margin: 20px auto; text-align: center; font-size: 1.1em; color: #1f2937;">
+  <p>Improve your English by listening to real spoken texts and answering questions to check your understanding.
+  Practice at your own pace and get immediate feedback.</p>
+  <p>Listen carefully and test how well you’ve understood — with instant feedback.</p>
+</div>
+  <audio controls>
+    <source src="../audio/cleaner_stage2_1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <img src="../images/cleaner_stage2_1.jpg" alt="Cleaning Specialist during interview" />
+
+  <div class="quiz-section" id="quiz">
+    <!-- Вопросы -->
+    <form id="quizForm">
+<ol>
+  <li>
+    <strong>Where did Maria work most recently as a cleaner?</strong>
+    <br>
+    <label><input type="radio" name="q1" value="1"> In a residential building</label><br>
+    <label><input type="radio" name="q1" value="0"> In a school</label><br>
+    <label><input type="radio" name="q1" value="0"> In a hospital</label><br>
+    <label><input type="radio" name="q1" value="0"> In a restaurant</label>
+  </li><br>
+
+  <li>
+    <strong>What areas did she clean in her last job?</strong>
+    <br>
+    <label><input type="radio" name="q2" value="0"> Parking lot and garage</label><br>
+    <label><input type="radio" name="q2" value="1"> Hallways, elevators, staircases, apartments</label><br>
+    <label><input type="radio" name="q2" value="0"> Only offices and kitchens</label><br>
+    <label><input type="radio" name="q2" value="0"> Storage rooms</label>
+  </li><br>
+
+  <li>
+    <strong>How does Maria handle limited time for cleaning?</strong>
+    <br>
+    <label><input type="radio" name="q3" value="1"> She focuses on high-traffic areas first and follows a checklist</label><br>
+    <label><input type="radio" name="q3" value="0"> She skips some tasks</label><br>
+    <label><input type="radio" name="q3" value="0"> She cleans randomly</label><br>
+    <label><input type="radio" name="q3" value="0"> She does everything without planning</label>
+  </li><br>
+
+  <li>
+    <strong>What did Maria do when a tenant complained about a strong chemical smell?</strong>
+    <br>
+    <label><input type="radio" name="q4" value="0"> She argued with the tenant</label><br>
+    <label><input type="radio" name="q4" value="1"> She apologized and changed the product</label><br>
+    <label><input type="radio" name="q4" value="0"> She stopped cleaning the hallway</label><br>
+    <label><input type="radio" name="q4" value="0"> She asked her supervisor to respond</label>
+  </li><br>
+
+  <li>
+    <strong>What cleaning equipment is Maria comfortable using?</strong>
+    <br>
+    <label><input type="radio" name="q5" value="1"> Vacuums, mops, polishers, and new tools</label><br>
+    <label><input type="radio" name="q5" value="0"> Only a broom and dustpan</label><br>
+    <label><input type="radio" name="q5" value="0"> Just window cleaners</label><br>
+    <label><input type="radio" name="q5" value="0"> No machines at all</label>
+  </li><br>
+
+  <li>
+    <strong>Is Maria flexible with working hours?</strong>
+    <br>
+    <label><input type="radio" name="q6" value="1"> Yes, she can work mornings or evenings</label><br>
+    <label><input type="radio" name="q6" value="0"> Only daytime shifts</label><br>
+    <label><input type="radio" name="q6" value="0"> Only on weekends</label><br>
+    <label><input type="radio" name="q6" value="0"> No, she prefers short shifts</label>
+  </li><br>
+
+  <li>
+    <strong>Does Maria prefer to work alone or in a team?</strong>
+    <br>
+    <label><input type="radio" name="q7" value="1"> She can work both alone and in a team</label><br>
+    <label><input type="radio" name="q7" value="0"> Only in a team</label><br>
+    <label><input type="radio" name="q7" value="0"> Only alone</label><br>
+    <label><input type="radio" name="q7" value="0"> She has no preference</label>
+  </li><br>
+
+  <li>
+    <strong>How did Maria respond at the end of the interview?</strong>
+    <br>
+    <label><input type="radio" name="q8" value="1"> She thanked them and said she looked forward to hearing more</label><br>
+    <label><input type="radio" name="q8" value="0"> She asked for a higher salary</label><br>
+    <label><input type="radio" name="q8" value="0"> She said she was unsure</label><br>
+    <label><input type="radio" name="q8" value="0"> She didn’t say anything</label>
+  </li>
+</ol>
+
+
+
+  <button type="button" onclick="submitQuiz()">Submit Answers</button>
+  <button type="reset">Reset</button>
+</form>
+
+<p id="quizResult"></p>
+
+<script>
+  function submitQuiz() {
+    const form = document.getElementById('quizForm');
+    const formData = new FormData(form);
+    let correct = 0;
+    const total = 8;
+
+    for (let [key, value] of formData.entries()) {
+      if (value === "1") correct++;
+    }
+
+    const incorrect = total - correct;
+    const resultElement = document.getElementById('quizResult');
+    resultElement.textContent = `Correct: ${correct}, Incorrect: ${incorrect}`;
+
+    if (correct === total) {
+      alert("🎉 Excellent! All answers are correct!");
+    }
+  }
+</script>
+
+
+
+
+<div class="nav-buttons" style="justify-content: center; margin-top: 40px;">
+  
+  <a href="../index.html">Back</a>
+  <a href="../../../index.html">Home</a>
+</div>
+
+
+</body>
+</html>
