@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speak2Work - English for Job Interviews</title>
+
+    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png" />
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f8f5f2;
+        color: #243a61;
+      }
+      header {
+        background: #fff;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        padding: 1em 2em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 1.4em;
+        color: #293241;
+      }
+      header .actions {
+        display: flex;
+        gap: 0.5em;
+      }
+      header .actions a {
+        text-decoration: none;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        font-weight: bold;
+        white-space: nowrap;
+      }
+      header .actions a:first-child {
+        color: #293241;
+      }
+      header .actions a:last-child {
+        background: #ee6c4d;
+        color: #fff;
+      }
+
+      main {
+        padding: 2em;
+        max-width: 900px;
+        margin: auto;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.05);
+      }
+      h2, h3, p, li {
+        color: #293241;
+      }
+
+      ul {
+        padding-left: 1.2em;
+      }
+
+      .practice-grid, .professions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        margin-top: 1em;
+      }
+      .practice-grid a, .professions a {
+        flex: 1 1 45%;
+        padding: 1em;
+        text-align: center;
+        background: #fff;
+        border: 2px solid #ee6c4d;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #293241;
+        font-weight: bold;
+      }
+      .cta-button {
+        background: #ee6c4d;
+        color: white;
+        padding: 0.8em 1.5em;
+        font-size: 1em;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin: 1em 0;
+      }
+      footer {
+        text-align: center;
+        padding: 2em 1em;
+        font-size: 0.9em;
+        color: #3d5a80;
+        background: #e0e0e0;
+      }
+
+      @media (max-width: 600px) {
+        .practice-grid a, .professions a {
+          flex: 1 1 100%;
+        }
+        header {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.5em;
+        }
+        header .actions {
+          width: 100%;
+          justify-content: flex-end;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Speak2Work</h1>
+      <div class="actions">
+        <a href="#">Sign in</a>
+        <a href="#">Join for Free</a>
+      </div>
+    </header>
+
+    <main>
+      <h2>English for Job Interviews</h2>
+      <p>
+        Success in a job interview often depends not only on your professional skills, but also on your ability to clearly express yourself in English — especially for newcomers and immigrants applying for jobs in North America or other English-speaking countries.
+      </p>
+      <p>
+        Speak2Work helps you prepare for real job interviews by focusing on practical English, specific to common professions. Our structured approach is based on proven methods of language acquisition, combining listening, reading, grammar, and vocabulary — the essential building blocks for confident communication.
+      </p>
+      <p>
+        Research shows that mastering these four areas significantly increases your chances of success:
+      </p>
+      <ul>
+        <li><b>Listening</b>: Understand real English from mock interviews. Train your ear to recognize questions and instructions as they sound in the workplace.</li>
+        <li><b>Reading</b>: Study realistic interview scripts and practice answering typical questions.</li>
+        <li><b>Grammar</b>: Review essential grammar topics related to job interviews and workplace communication. Express yourself correctly and professionally.</li>
+        <li><b>Vocabulary</b>: Learn key words for your profession, so you can describe your experience and skills with confidence.</li>
+      </ul>
+
+      <h3>What do you want to practice?</h3>
+      <div class="practice-grid">
+        <a href="#listening">Listening<br><small>Practice with real audio from mock interviews</small></a>
+        <a href="#reading">Reading<br><small>Study interview scripts and answer questions</small></a>
+        <a href="#grammar">Grammar<br><small>Review job-related grammar topics</small></a>
+        <a href="#vocabulary">Vocabulary<br><small>Learn key words by profession</small></a>
+      </div>
+
+      <button class="cta-button">Explore Professions</button>
+
+      <h3>What makes Speak2Work unique</h3>
+      <ul>
+        <li>Designed for newcomers and immigrants applying for jobs in English-speaking environments.</li>
+        <li>Focus on real-world English for common professions: construction, cleaning, caregiving, delivery, warehouse, kitchen, and more.</li>
+        <li>Authentic job interview dialogues — not textbook language.</li>
+        <li>Integrated practice tools: text, audio, and exercises — all in one place.</li>
+        <li>Offline learning options: download PDFs & MP3s.</li>
+        <li>Simple, mobile-friendly design — perfect for busy learners.</li>
+      </ul>
+    </main>
+
+    <footer>
+      &copy; 2025 Speak2Work. All rights reserved.
+    </footer>
+  </body>
+</html>
