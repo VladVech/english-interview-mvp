@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caregiver / Elderly Support - Reading Stage 1</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf9f4;
+      margin: 20px;
+      color: #1d1d1f;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #1d1d1f;
+    }
+    audio, img {
+      width: 100%;
+      max-width: 350px;
+      margin: 20px auto;
+      display: block;
+      border-radius: 8px;
+    }
+    .description {
+      text-align: center;
+      margin: 20px auto;
+      max-width: 600px;
+    }
+    .text-block {
+      background-color: #fff;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      max-width: 800px;
+      line-height: 1.6;
+    }
+    .nav-buttons {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .nav-buttons a {
+      background: #f97316;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .quiz-section {
+      text-align: left;
+      max-width: 600px;
+      margin: 30px auto;
+    }
+    ol {
+      max-width: 800px;
+      margin: 0 auto 40px auto;
+    }
+    li {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin-left: 20px;
+    }
+    .btn-row {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-weight: bold;
+      border: 1px solid #1f2937;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #result {
+      margin-top: 15px;
+      font-weight: bold;
+      color: #1f2937;
+    }
+    .quiz-container {
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  padding: 0 16px;
+}
+
+.question {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.question p {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.question label {
+  display: block;
+  margin-left: 20px;
+  margin-bottom: 4px;
+}
+ol {
+      max-width: 800px;
+      margin: 0 auto 40px auto;
+    }
+    li {
+      margin-bottom: 20px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="nav-buttons">
+    <a href="../index.html">Back</a>
+    <a href="../../../index.html">Home</a>
+    
+  </div>
+
+  <h1>Caregiver / Elderly Support - Reading</h1>
+  <h2>Stage 1 - Phone Screening Interview</h2>
+<div class="description">
+    Improve your English by reading real-life interview scenarios and answering questions to test your understanding. Build confidence with instant feedback and practical vocabulary.
+  </div>
+  <img src="../images/caregiver_stage1r.jpg" alt="Caregiver at work">
+  <div class="text-block">
+    <p>Hi, is this Mei?</p>
+    <p><strong>Yes, this is Mei speaking.</strong></p>
+  
+    <p>Hi Mei, this is Sarah from Maple Home Care. Is now a good time for a quick phone interview?</p>
+    <p><strong>Yes, of course. Thank you for calling.</strong></p>
+  
+    <p>Great. Can you tell me about your experience as a caregiver?</p>
+    <p><strong>Sure. I've been working as a caregiver for about four years. I've helped seniors with daily tasks, medication reminders, and light housekeeping.</strong></p>
+  
+    <p>Do you have experience with clients who have mobility issues or dementia?</p>
+    <p><strong>Yes, I've cared for two elderly clients with early-stage dementia. I also helped one client transfer from bed to wheelchair safely.</strong></p>
+  
+    <p>That's good to hear. What would you do if a client refuses to take their medication?</p>
+    <p><strong>I would stay calm, speak gently, and try to explain why it's important. If they still refuse, I would report it to the nurse or supervisor.</strong></p>
+  
+    <p>Are you comfortable preparing meals and assisting with feeding if necessary?</p>
+    <p><strong>Yes, I can cook simple meals and follow any dietary instructions. I've also helped with feeding before.</strong></p>
+  
+    <p>Do you have any formal training or certificates, like First Aid or CPR?</p>
+    <p><strong>Yes, I completed both First Aid and CPR last year. I also did a caregiver training course online.</strong></p>
+  
+    <p>Would you be available to work evenings or weekends?</p>
+    <p><strong>Yes, I'm flexible. I can work evenings and some weekends too.</strong></p>
+  
+    <p>When would you be available to start?</p>
+    <p><strong>I'm available to start next week. I just need to confirm my schedule.</strong></p>
+  
+    <p>Great. Thank you for your time, Mei. We'll be in touch soon.</p>
+    <p><strong>Thank you very much. I look forward to hearing from you.</strong></p>
+  </div>
+  
+
+  <audio controls>
+    <source src="../audio/caregiver_stage1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+
+
+  <div class="quiz-section" id="quiz">
+    <!-- Вопросы -->
+    <form id="quizForm">
+        <ol>
+            <li>
+              <strong>How many years of caregiver experience does Mei have?</strong><br>
+              <label><input type="radio" name="q1" value="0"> Two years</label>
+              <label><input type="radio" name="q1" value="1"> Four years</label>
+              <label><input type="radio" name="q1" value="0"> Six years</label>
+              <label><input type="radio" name="q1" value="0"> Less than one year</label>
+            </li>
+          
+            <li>
+              <strong>What type of clients has Mei worked with?</strong><br>
+              <label><input type="radio" name="q2" value="1"> Seniors, including clients with dementia and mobility issues</label>
+              <label><input type="radio" name="q2" value="0"> Only young children</label>
+              <label><input type="radio" name="q2" value="0"> Only office staff</label>
+              <label><input type="radio" name="q2" value="0"> Hospital patients</label>
+            </li>
+          
+            <li>
+              <strong>What would Mei do if a client refuses to take their medication?</strong><br>
+              <label><input type="radio" name="q3" value="0"> Ignore the situation</label>
+              <label><input type="radio" name="q3" value="0"> Force the client to take it</label>
+              <label><input type="radio" name="q3" value="1"> Speak gently, explain, and report to a nurse if needed</label>
+              <label><input type="radio" name="q3" value="0"> Leave the house</label>
+            </li>
+          
+            <li>
+              <strong>Does Mei have formal training or certificates?</strong><br>
+              <label><input type="radio" name="q4" value="1"> Yes, First Aid, CPR, and caregiver training</label>
+              <label><input type="radio" name="q4" value="0"> Only First Aid</label>
+              <label><input type="radio" name="q4" value="0"> Only CPR</label>
+              <label><input type="radio" name="q4" value="0"> No, she has no training</label>
+            </li>
+          
+            <li>
+              <strong>Is Mei available to work evenings or weekends?</strong><br>
+              
+              <label><input type="radio" name="q5" value="0"> No, only mornings</label>
+              <label><input type="radio" name="q5" value="0"> Only weekends</label>
+              <label><input type="radio" name="q5" value="0"> Only weekdays</label>
+              <label><input type="radio" name="q5" value="1"> Yes, she's flexible</label>
+            </li>
+          </ol>
+          
+
+
+
+
+
+  <button type="button" onclick="submitQuiz()">Submit Answers</button>
+  <button type="reset">Reset</button>
+</form>
+
+<p id="quizResult"></p>
+
+<script>
+  function submitQuiz() {
+    const form = document.getElementById('quizForm');
+    const formData = new FormData(form);
+    let correct = 0;
+    const total = 5;
+
+    for (let [key, value] of formData.entries()) {
+      if (value === "1") correct++;
+    }
+
+    const incorrect = total - correct;
+    const resultElement = document.getElementById('quizResult');
+    resultElement.textContent = `Correct: ${correct}, Incorrect: ${incorrect}`;
+
+    if (correct === total) {
+      alert("🎉 Excellent! All answers are correct!");
+    }
+  }
+</script>
+
+
+
+
+<div class="nav-buttons" style="justify-content: center; margin-top: 40px;">
+  
+  <a href="../index.html">Back</a>
+  <a href="../../../index.html">Home</a>
+</div>
+
+
+</body>
+</html>
