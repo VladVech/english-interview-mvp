@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speak2Work - English for Job Interviews</title>
+
+    <link rel="icon" type="image/png" href="favicon.png" sizes="32x32" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png" />
+
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #f8f5f2, #e9ecef);
+        color: #243a61;
+      }
+      .top-bar {
+        background: #fff;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        padding: 0.8em 2em;
+        position: relative;
+        z-index: 10;
+      }
+      .top-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #293241;
+      }
+      .menu-buttons a {
+        text-decoration: none;
+        margin-left: 1em;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        font-weight: bold;
+        white-space: nowrap;
+      }
+      .menu-buttons a:first-child {
+        color: #293241;
+      }
+      .menu-buttons a:last-child {
+        background: #ee6c4d;
+        color: #fff;
+      }
+
+      main {
+        padding: 2em;
+        max-width: 900px;
+        margin: auto;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.05);
+        box-sizing: border-box;
+      }
+      h2, h3, p, li {
+        color: #293241;
+      }
+      .intro-text {
+        font-size: 1.1em;
+      }
+      .cta-button {
+        background: #ee6c4d;
+        color: white;
+        padding: 0.8em 1.5em;
+        font-size: 1em;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin: 1.5em 0;
+        width: 100%;
+        max-width: 250px;
+      }
+      .preview-block {
+        background: #f1f1f1;
+        padding: 1em;
+        border-radius: 8px;
+        margin-bottom: 2em;
+        text-align: center;
+      }
+      ul {
+        padding-left: 1.2em;
+      }
+      .practice-grid, .professions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        margin-top: 1em;
+      }
+      .practice-grid a, .professions a {
+        flex: 1 1 45%;
+        padding: 1em;
+        text-align: center;
+        background: #fff;
+        border: 2px solid #ee6c4d;
+        border-radius: 8px;
+        text-decoration: none;
+        color: #293241;
+        font-weight: bold;
+        transition: transform 0.2s;
+      }
+      .practice-grid a:hover, .professions a:hover {
+        transform: scale(1.05);
+      }
+      footer {
+        text-align: center;
+        padding: 2em 1em;
+        font-size: 0.9em;
+        color: #3d5a80;
+        background: #e0e0e0;
+      }
+
+      @media (max-width: 600px) {
+        .practice-grid a, .professions a {
+          flex: 1 1 100%;
+        }
+        .top-container {
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.5em;
+        }
+        .menu-buttons {
+          width: 100%;
+          justify-content: flex-end;
+          display: flex;
+        }
+        main {
+          padding: 1em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="top-container">
+        <div class="logo">Speak2Work</div>
+        <div class="menu-buttons">
+          <a href="#">Sign in</a>
+          <a href="#">Join for Free</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h2>Speak2Work - English for Job Interviews</h2>
+      <p class="intro-text">
+        Speak2Work helps you prepare for real job interviews in English, focusing on practical language for popular professions. Our proven approach develops your listening, reading, grammar, and vocabulary — everything you need to feel confident.
+      </p>
+      <button class="cta-button">Try Free Lesson</button>
+
+      <div class="preview-block">
+        <p><b>🎧 Hear an example:</b></p>
+        <audio controls style="width: 100%;">
+          <source src="audio/sample.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+
+      <h3>What do you want to practice?</h3>
+      <div class="practice-grid">
+        <a href="#listening"><b>Listening</b><br>Understand real English from mock interviews and learn to follow instructions. Improve your listening for workplace situations and interview questions.</a>
+        <a href="#reading"><b>Reading</b><br>Study realistic interview scripts and practice answering questions. Build confidence to read and understand job-related English materials.</a>
+        <a href="#grammar"><b>Grammar</b><br>Review key grammar topics for interviews and daily work situations. Express your ideas clearly and speak with correct English structure.</a>
+        <a href="#vocabulary"><b>Vocabulary</b><br>Learn important job-related words and phrases. Describe your experience, skills, and tasks with confidence during interviews and at work.</a>
+      </div>
+
+      <h3>What makes Speak2Work unique</h3>
+      <ul>
+        <li>Focused on real-world English for common professions: construction, cleaning, caregiving, delivery, warehouse, kitchen, and more.</li>
+        <li>Authentic job interview dialogues — not textbook language.</li>
+        <li>Interactive practice: text, audio, and exercises — all in one place.</li>
+        <li>Offline learning options: download PDFs & MP3s.</li>
+        <li>Simple, mobile-friendly design for busy learners.</li>
+      </ul>
+
+      <h3>Professions on the site</h3>
+      <div class="professions">
+        <a href="professions/warehouse-worker/">Warehouse Worker</a>
+        <a href="professions/cleaner/">Cleaner / Housekeeper</a>
+        <a href="professions/hotel-housekeeper/">Hotel Housekeeper</a>
+        <a href="professions/farm-worker/">Farm Worker</a>
+        <a href="professions/construction-helper/">Construction Helper</a>
+        <a href="professions/delivery-driver/">Delivery Driver / Courier</a>
+        <a href="professions/kitchen-helper/">Kitchen Helper / Food Prep</a>
+        <a href="professions/cashier/">Cashier / Sales Associate</a>
+        <a href="professions/childcare-worker/">Childcare Worker / Babysitter</a>
+        <a href="professions/fast-food-worker/">Fast Food Worker</a>
+        <a href="professions/caregiver/">Caregiver / Elderly Support</a>
+        <a href="professions/truck-driver/">Truck Driver</a>
+        <a href="professions/dental-assistant/">Dental Assistant</a>
+        <a href="professions/junior-programmer/">Junior Programmer</a>
+        <a href="professions/junior-qa/">Junior QA Tester</a>
+        <a href="professions/ui-ux-designer/">UI/UX Designer</a>
+        <a href="professions/junior-3d-artist/">Junior 3D Artist (Blender)</a>
+        <a href="professions/senior-3d-artist/">Senior 3D Artist (Pro)</a>
+      </div>
+    </main>
+
+    <footer>
+      &copy; 2025 Speak2Work. All rights reserved.
+    </footer>
+  </body>
+</html>
