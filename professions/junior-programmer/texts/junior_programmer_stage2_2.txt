@@ -1,0 +1,47 @@
+Tell me about a time you made a mistake in code. How did you handle it?
+
+In one project, I accidentally introduced a bug that broke login functionality. I admitted the error, rolled back the commit, and fixed the issue. Then I wrote a test to prevent it from happening again.
+
+How would you explain recursion to someone who doesn’t have a technical background?
+
+I’d say it’s like a set of Russian nesting dolls. Each doll opens to reveal a smaller one until you reach the smallest. Similarly, a recursive function keeps calling itself with a smaller input until it reaches the base case.
+
+What would you do if you strongly disagreed with how your tech lead wanted to implement something?
+
+I would respectfully share my reasoning and maybe suggest a compromise. But if the decision is final, I would support it and implement it professionally.
+
+How do you deal with vague or incomplete task descriptions?
+
+I ask clarifying questions and try to define what’s expected. If it’s still unclear, I start small, share my draft, and adjust based on feedback.
+
+How would you detect and fix a memory leak in a JavaScript application?
+
+I’d use Chrome DevTools to monitor memory usage and take heap snapshots. I’d check for detached DOM nodes, un-cleared timers, or forgotten event listeners.
+
+How do you prioritize tasks when everything feels urgent?
+
+I break tasks down and ask stakeholders which items truly block progress. I focus on high-impact or time-sensitive items first, then move down the list.
+
+A colleague pushes bad code but insists it works. What do you do?
+
+I’d review it respectfully and point out concerns with examples. If needed, I’d ask a senior dev to help us decide the best solution, keeping the conversation collaborative.
+
+What are closures in JavaScript, and how can they cause issues?
+
+Closures let a function access variables from an outer function even after the outer function has returned. This can be powerful, but if not used carefully, can lead to memory leaks or unexpected behavior.
+
+How would you explain the difference between a stack and a queue?
+
+A stack is like a pile of plates—last in, first out. A queue is like a line at a store—first in, first out. Both are used to organize how data is accessed and removed.
+
+If you had to choose between writing perfect code slowly or working fast with some bugs, what would you choose?
+
+It depends. For prototyping, speed matters. For production code, reliability is key. Ideally, I’d aim for clean, testable code within a reasonable timeframe.
+
+What would you do if your manager asked you to switch to a new language or framework overnight?
+
+I’d accept the challenge, do a crash course, and focus on learning what’s needed for the task. I’d also ask for support or guidance where possible.
+
+How do you know when a feature is “done”?
+
+When it meets the requirements, passes all tests, has clean code, and has been reviewed by a teammate. I also check that it works in the actual environment (not just my machine).

@@ -1,0 +1,39 @@
+Can you tell me about your background and how you got into QA?
+
+Sure. I recently completed a QA testing course where I learned about manual testing, writing test cases, and basic automation. I also did a small internship where I helped test a web application.
+
+What types of testing are you familiar with?
+
+I’ve worked with functional testing, UI testing, regression testing, and smoke testing. I’ve also learned the basics of API and automation testing.
+
+Have you used any bug tracking or test management tools?
+
+Yes. I used Jira for bug tracking and TestRail to write and manage test cases. I’m comfortable using those kinds of tools to stay organized.
+
+What is a test case, and how do you write one?
+
+A test case is a set of steps to check if a feature works as expected. I include a test ID, steps to follow, expected result, and actual result. I try to keep it simple and clear.
+
+Can you describe how you report a bug?
+
+I write a clear title, describe how to reproduce it, what I expected, what actually happened, and include screenshots or video if possible. I also add severity and priority.
+
+Have you done any automation testing?
+
+Only basics. I’ve used Selenium with Java and Python for small scripts. I can write simple locators and check element presence. I’d like to learn more.
+
+How do you test a login form?
+
+I test with valid and invalid inputs, empty fields, special characters, wrong passwords, and check for error messages. I also test the “remember me” and password visibility options.
+
+Do you prefer working alone or in a team?
+
+I like both. I enjoy focusing when testing alone, but I also like working with developers and other testers to solve problems.
+
+What are your salary expectations?
+
+I’m looking for an entry-level QA role, so I’m open to a fair starting salary and focused on growing my skills.
+
+Do you have any questions for us?
+
+Yes. How is your QA team structured, and do junior testers get support or mentorship?

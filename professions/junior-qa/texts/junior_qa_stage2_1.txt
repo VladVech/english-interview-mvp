@@ -1,0 +1,39 @@
+Can you explain the difference between severity and priority in bug tracking?
+
+Sure. Severity is about how serious the bug is technically — for example, if the app crashes, it's high severity. Priority is about how urgently the bug should be fixed — for example, a typo on the homepage may be low severity but high priority.
+
+What are the main components of a good bug report?
+
+A good bug report includes a clear title, steps to reproduce, expected and actual results, environment info (like browser or OS), severity and priority, and any screenshots or videos to help developers understand the issue.
+
+How do you handle testing when requirements are not clear?
+
+I ask questions, talk to the product owner or developer, and try to understand the goal. If needed, I write test cases based on the user story or expected user behavior.
+
+Can you describe what regression testing is and when to perform it?
+
+Regression testing means testing existing features after a code change to make sure nothing is broken. It’s done after bug fixes, new feature releases, or big code changes.
+
+What’s the difference between black box and white box testing?
+
+Black box testing means testing the software without knowing the internal code — focusing on input and output. White box testing means testing with knowledge of how the code works, usually done by developers.
+
+Have you written or executed test cases before?
+
+Yes. I’ve written test cases in TestRail and Excel. I list test steps, expected results, and mark them as pass or fail after execution. I also add comments or bugs if needed.
+
+How would you test a search bar on a website?
+
+I would test with valid input, empty input, special characters, numbers, too long strings, misspellings, and edge cases. I’d also check auto-suggestions, filters, and result accuracy.
+
+Do you have any experience with API testing?
+
+Only basic experience. I’ve used Postman to send GET and POST requests and check status codes and response bodies. I’m learning how to check headers and use parameters.
+
+What is exploratory testing?
+
+Exploratory testing means testing the app without a set plan, using creativity and experience to find unexpected issues. It’s useful for finding bugs that test cases may miss.
+
+How do you work with developers when they reject your reported bug?
+
+I double-check the bug, provide more evidence if needed, and talk with the developer to understand their view. If we still disagree, I bring in a QA lead or product owner to help decide.

@@ -1,0 +1,39 @@
+Tell me about a time you faced a creative or technical challenge. How did you handle it?
+
+During my final year project, I had to create a complex environment with tight performance constraints. I solved it by switching to modular design, using trim sheets, and baking high-poly details into normal maps. It taught me a lot about efficiency.
+
+How do you respond when you're asked to redo or significantly change a piece of work?
+
+I try not to take it personally. I listen to the feedback, ask follow-up questions if needed, and then revise the work. It’s part of the process and helps me grow.
+
+Describe how you manage your time when juggling multiple tasks or projects.
+
+I prioritize based on deadlines and complexity. I break down big tasks into smaller steps, keep to-do lists, and set internal checkpoints to stay on track without getting overwhelmed.
+
+Have you ever had to collaborate with people from other departments?
+
+Yes, I worked with animators and level designers during school projects. We discussed asset needs early, kept communication clear, and adjusted our workflows to support each other’s goals.
+
+What motivates you as a 3D artist?
+
+Seeing my work come to life in an actual scene or game is a huge motivator. I also enjoy learning new tools and getting better with every project.
+
+How do you handle pressure or tight deadlines?
+
+I stay focused and organized. If something unexpected comes up, I adjust the schedule and communicate early. I do my best to deliver on time without compromising quality.
+
+What would your ideal first project look like?
+
+Something small but meaningful—maybe a hero prop or part of an environment set where I can take ownership, learn the pipeline, and get feedback along the way.
+
+Where do you see yourself in the next few years?
+
+I hope to grow into a mid-level artist, possibly mentoring others, and contributing to bigger parts of the project. Long-term, I’d like to specialize in environments or work on stylized game art.
+
+What do you think is most important for junior artists in their first studio role?
+
+Being open to feedback, asking good questions, delivering on time, and being easy to work with. Technical skills matter, but attitude and communication are key.
+
+Do you have any questions for us?
+
+Yes. How do junior artists typically grow within your team, and are there any mentorship or training opportunities?

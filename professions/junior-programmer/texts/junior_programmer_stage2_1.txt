@@ -1,0 +1,67 @@
+Can you explain the difference between an array and a linked list?
+
+Yes. An array stores elements in contiguous memory and allows constant-time access by index, but resizing can be expensive. A linked list stores elements as nodes with pointers, allowing efficient insertions and deletions, but slower access by position.
+
+What is the difference between synchronous and asynchronous programming?
+
+Synchronous code executes line by line, blocking the program until each task finishes. Asynchronous code allows other tasks to run while waiting for an operation, like a network request or file read, improving performance and responsiveness.
+
+What is Big O notation and why is it important?
+
+Big O notation describes the time or space complexity of an algorithm. It helps us understand how the performance of a function scales with input size, which is critical when writing efficient code.
+
+Can you give an example of a time you used a data structure to solve a problem?
+
+I once built a leaderboard system using a priority queue to keep top scores sorted efficiently. It helped avoid re-sorting the whole list every time a new score was added.
+
+How does a hash table work?
+
+A hash table uses a hash function to map keys to values in an array. Ideally, each key hashes to a unique index. If collisions occur, they are handled using techniques like chaining or open addressing.
+
+Have you worked with APIs? How do you consume them in JavaScript?
+
+Yes. I’ve used the Fetch API and Axios to make GET and POST requests to REST APIs. I handle responses with async/await and manage errors with try/catch blocks.
+
+What is the difference between a class and an object?
+
+A class is a blueprint for creating objects. It defines properties and methods. An object is an instance of a class with its own data and behavior.
+
+Can you describe how HTTP works?
+
+HTTP is a protocol for sending requests and receiving responses between clients and servers. It’s stateless, meaning each request is independent. Clients send methods like GET or POST, and servers respond with status codes and data.
+
+What are some common sorting algorithms, and which one would you choose in practice?
+
+Some common algorithms are bubble sort, merge sort, quicksort, and insertion sort. I usually choose quicksort or merge sort for large datasets because of their performance, but for small arrays, insertion sort can be fast and simple.
+
+What’s the difference between SQL and NoSQL databases?
+
+SQL databases use structured schemas and relational tables. They’re good for complex queries and consistent data. NoSQL databases use flexible schemas (like JSON), are great for scalability, and work well with unstructured data.
+
+Have you done any test-driven development?
+
+Yes. In one project, I wrote unit tests using Jest before building functions. It helped catch edge cases early and made debugging easier later.
+
+What tools do you use for debugging?
+
+In JavaScript, I use browser dev tools, console.log, and breakpoints. I also use VS Code’s debugger for stepping through logic and inspecting variables.
+
+How do you approach learning a new technology or framework?
+
+I start with the official documentation, then follow a tutorial or build a small project. I take notes, ask questions in dev communities, and apply the new skill in a practical way.
+
+Can you explain what recursion is and give an example?
+
+Recursion is when a function calls itself to solve a smaller part of a problem. For example, calculating factorial: `factorial(n) = n * factorial(n-1)` until reaching `factorial(1)`.
+
+Do you know how memory is managed in a language like JavaScript?
+
+Yes. JavaScript uses automatic garbage collection. It tracks references to objects and frees memory when there are no more references. Closures and circular references can sometimes create memory leaks.
+
+What projects are you currently working on or excited to build?
+
+I’m building a portfolio site using React and experimenting with a simple game engine in Python. I’m also planning to contribute to an open-source API documentation tool.
+
+What is one area of computer science you’d like to deepen your knowledge in?
+
+I’d like to improve my understanding of algorithms and data structures. I’m currently reviewing graph traversal and dynamic programming techniques.

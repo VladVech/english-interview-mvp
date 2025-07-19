@@ -1,0 +1,39 @@
+Can you tell me a bit about your programming background?
+
+Sure. I recently completed a software development program where I focused on object-oriented programming, web development, and algorithms. I also completed a few online courses in Python and JavaScript to strengthen my skills.
+
+What programming languages are you most confident using?
+
+I’m most confident with Python and JavaScript. I’ve also used Java and C# in projects and coursework, especially for building small applications and working with APIs.
+
+What kind of projects have you worked on so far?
+
+I built a task management web app using React and Firebase, and a few CLI tools in Python. I also worked on a team project to create a simple inventory system using Django.
+
+Why are you interested in this junior programming role?
+
+I want to be part of a professional team where I can grow, apply what I’ve learned, and contribute to real-world software. I really enjoy solving problems with code and learning from more experienced developers.
+
+Have you ever worked with version control systems?
+
+Yes. I use Git for all my projects. I’m comfortable creating branches, writing clear commit messages, and using GitHub for collaboration.
+
+Are you open to working in a team environment?
+
+Absolutely. I enjoy pair programming and participating in code reviews. I think feedback helps me write better, cleaner code.
+
+How do you stay organized when coding or working on a project?
+
+I usually start with a plan or wireframe, break the task into smaller goals, and track progress using Trello or GitHub issues. I also write comments and keep code modular.
+
+Do you have any experience with Agile or Scrum?
+
+Yes, I learned the basics during my training and practiced standups, sprints, and retros during a bootcamp-style group project. I'm eager to learn more on a real team.
+
+What are your salary expectations?
+
+As a junior just starting out, I’m open to a fair entry-level salary based on industry standards and responsibilities.
+
+Do you have any questions for us?
+
+Yes. How do junior developers typically get started on your team, and is there any mentoring or onboarding process in place?

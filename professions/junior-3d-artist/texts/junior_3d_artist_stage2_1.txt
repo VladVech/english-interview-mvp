@@ -1,0 +1,39 @@
+Can you walk me through your process for creating a game-ready prop?
+
+Sure. I start by gathering references and blocking out the shape in Blender. Once I’m happy with the silhouette, I move to high-poly sculpting if needed, then retopologize for low-poly. I UV unwrap, bake maps in Marmoset or Substance, and texture using smart materials and custom layers. I test the asset in-engine before finalizing.
+
+What do you focus on when unwrapping UVs?
+
+I make sure to use the UV space efficiently, avoid stretching, and keep seams hidden where possible. I also try to maintain consistent texel density across the model.
+
+How do you approach baking and texturing?
+
+For baking, I double-check the mesh naming and cage settings, and I test bakes on a preview map first. In texturing, I think about storytelling—adding wear, dirt, and variation where it makes sense. I work in layers and use masks to stay non-destructive.
+
+Have you worked with modular assets or trim sheets?
+
+Yes. I created a modular sci-fi hallway set in Unreal, using repeatable meshes and trim sheets. It helped optimize the scene and made it easier to build variations.
+
+What is your experience with shaders or material setups?
+
+I’ve used Unreal’s material editor to create basic master materials with parameters for color, roughness, and normal intensity. I also experimented with vertex painting and parallax effects.
+
+Can you explain how you optimize assets for performance?
+
+I reduce poly count where detail isn’t needed, use normal maps instead of geometry, and pack texture maps efficiently. I also keep draw calls in mind when placing assets in-engine.
+
+How do you handle receiving detailed feedback from a lead artist?
+
+I take notes and ask clarifying questions to be sure I understand. Then I apply the changes step by step and share work-in-progress for review. I see feedback as an essential part of learning.
+
+Have you used version control tools like Perforce or Git?
+
+I’ve used GitHub for personal projects and I’m currently learning Perforce workflows through tutorials. I understand the basics of commits, branches, and keeping files synced.
+
+How do you present your work in a portfolio or review?
+
+I create beauty renders in Marmoset or Unreal, include wireframes and texture breakdowns, and show turntables when possible. I also write short notes on my process and challenges I overcame.
+
+What areas of 3D art are you most interested in improving?
+
+I’d like to improve my sculpting for organic assets and my lighting skills for better scene presentation. I’m also interested in learning more about real-time VFX and environment storytelling.

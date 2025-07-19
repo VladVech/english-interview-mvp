@@ -1,0 +1,39 @@
+Can you tell me about your education and how you got into 3D art?
+
+Sure. I recently graduated from a 3D animation program where I focused on modeling and texturing. During my studies, I worked on several short films and game assets, and I fell in love with creating environments and props.
+
+What software are you most comfortable using right now?
+
+I primarily use Blender for modeling, Substance Painter for texturing, and Marmoset for rendering. I’m also learning more about Unreal Engine for real-time rendering and scene setup.
+
+What kind of projects have you worked on so far?
+
+At school, I worked on a group project to build a sci-fi corridor in Unreal. I modeled props and handled the material setup. I’ve also done personal projects, including stylized environments and game-ready assets.
+
+Why are you interested in joining our studio?
+
+I admire your work, especially the strong visual storytelling in your environments. I’m looking for a team where I can grow, learn from experienced artists, and contribute to meaningful projects.
+
+Do you have any experience working with game engines?
+
+Yes, mostly with Unreal Engine. I’ve imported models, set up materials, and built basic lighting. I’ve also tried Unity for simple interactive scenes.
+
+How do you handle feedback and critique on your work?
+
+I appreciate clear and constructive feedback. It helps me improve. I try to implement changes quickly and always ask questions if something is unclear.
+
+Are you able to meet deadlines and manage your time?
+
+Yes. I’m used to working with strict deadlines at school and during internships. I usually create a checklist and break tasks into smaller steps to stay on track.
+
+Are you looking for remote, in-office, or hybrid work?
+
+I’m flexible. I’ve worked remotely during school but would also enjoy being in a studio to learn directly from teammates.
+
+What are your salary expectations?
+
+Since this would be my first full-time role, I’m open to discussing a fair junior-level salary based on industry standards and your expectations.
+
+Do you have any questions for us?
+
+Yes. What’s the usual workflow for junior artists in your team? And how do you support skill development and training?

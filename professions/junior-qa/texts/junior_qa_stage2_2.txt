@@ -1,0 +1,39 @@
+Tell me about a time you found a bug others didn’t notice. How did you find it?
+
+In my internship, I noticed a bug where the user could submit a form twice if they clicked quickly. It wasn’t in the test cases, but I found it by exploring different click patterns during testing.
+
+How do you react when a developer says your bug report is not valid?
+
+I stay calm, review the report again, and check if I missed something. If the bug is still there, I explain clearly and add more evidence like a screen recording. I focus on solving the issue, not winning an argument.
+
+Describe a situation where you had to test under time pressure.
+
+During a release, we had to finish regression testing in one day. I prioritized critical tests, skipped low-risk cases, and worked closely with the team to stay on track. We released on time with no major bugs.
+
+What would you do if you received a feature to test but had no test cases or clear requirements?
+
+I’d ask for any available documentation or designs. If nothing exists, I’d speak with the product owner or developer and then write my own test cases based on the app’s behavior and logic.
+
+How do you manage repetitive testing without losing focus?
+
+I break it into smaller parts, take short breaks, and listen to quiet music if allowed. I also try to switch between different types of tasks to stay fresh.
+
+How do you handle feedback or correction from senior testers?
+
+I appreciate it. I take notes, ask questions if I don’t understand, and apply what I learned in the next task. I want to improve every day.
+
+How do you stay up to date with QA trends or tools?
+
+I follow QA blogs, YouTube channels, and LinkedIn groups. I’ve also joined a few online communities where people share tools and testing tips.
+
+If you joined our team, how would you handle your first bug report?
+
+I would follow the team’s format, keep it clear and professional, add steps to reproduce, and include screenshots or video if needed. I’d make sure it’s easy for developers to understand and fix.
+
+What does quality mean to you in software?
+
+It means that the product works well, is easy to use, and meets user expectations. It should also be stable, secure, and bug-free in key areas.
+
+Do you have any questions for us?
+
+Yes. What does the onboarding process look like for junior testers, and how often do QA and developers work together in your team?
