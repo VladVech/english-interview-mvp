@@ -1,0 +1,39 @@
+Can you walk me through one of your recent UI/UX projects?
+
+Yes. I recently designed a mobile health tracking app. I started by researching user pain points, then mapped out user flows, created wireframes in Figma, and iterated based on usability feedback. I also built a design system for consistent styling.
+
+How do you approach designing for both usability and visual appeal?
+
+I focus on hierarchy, spacing, and consistency to create intuitive layouts. I also follow accessibility guidelines and design patterns while keeping the brand style and visual clarity in mind.
+
+How do you decide which features to prioritize in a user interface?
+
+I consider user needs, business goals, and technical feasibility. I work with product managers to align priorities and validate with users when possible.
+
+What do you include when handing off designs to developers?
+
+I make sure all components and screens are fully annotated in Figma, with spacing, states, and interactions clear. I provide responsive layouts and document the design system if needed.
+
+Have you worked with design systems or created one?
+
+Yes. I helped expand a small design system in Figma by creating consistent buttons, inputs, color tokens, and typography styles. It made handoff and iteration much faster.
+
+How do you test whether your design is user-friendly?
+
+I run quick usability tests with prototypes, observe where users struggle, and collect feedback. I also use simple A/B tests or surveys when applicable.
+
+What’s your experience with responsive design?
+
+I always design for mobile first, then scale up to tablet and desktop. I test layouts at different breakpoints and adjust components to stay usable across screen sizes.
+
+Have you worked with any accessibility standards?
+
+Yes. I pay attention to contrast ratios, font sizes, tap targets, and clear labels. I try to follow WCAG basics to ensure the product is inclusive.
+
+How do you know when a design is “done”?
+
+When it meets user needs, business goals, and is tested and refined. If it solves the problem, is accessible, and developers can implement it confidently, I consider it ready.
+
+How do you keep improving your skills as a designer?
+
+I follow design blogs, take short online courses, review good case studies on Behance and Dribbble, and ask for feedback from more senior designers whenever I can.

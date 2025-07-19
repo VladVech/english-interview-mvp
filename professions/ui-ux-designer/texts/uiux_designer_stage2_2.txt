@@ -1,0 +1,39 @@
+Tell me about a time you received difficult feedback on a design. How did you respond?
+
+A client once said my design felt too “flat” and didn’t match their brand. I asked follow-up questions to understand what they meant, reviewed their brand materials, and adjusted the color palette and visuals. In the end, they were happy with the changes.
+
+How do you handle working on a project where requirements change often?
+
+I stay flexible and make sure I’m aligned with the product owner. I try to work in low-fidelity as long as possible and keep components reusable so I can adapt quickly.
+
+Describe a time you had a disagreement with a developer or stakeholder.
+
+A developer pushed back on a layout I designed for mobile. I explained the reasoning behind the design, and we ended up collaborating on a compromise that worked better for both UX and implementation.
+
+How do you stay productive when juggling multiple design tasks?
+
+I use tools like Notion and Trello to track tasks, prioritize based on deadlines, and block focused time for deep work. I also set check-ins to stay aligned with the team.
+
+What motivates you as a designer?
+
+Helping people use products more easily and enjoyably. I like solving real problems and improving things that frustrate users.
+
+Have you ever had to design something for a product you didn’t fully understand?
+
+Yes. I worked on a feature for a healthcare tool. I spent time researching the context, asking domain experts, and testing with real users to make sure my assumptions were correct.
+
+What would you do if you delivered a design and later realized you forgot an important use case?
+
+I’d bring it up right away, suggest a fix, and update the design. I believe in being honest and solving the problem fast rather than hiding it.
+
+How do you build good relationships with developers and other team members?
+
+I stay open, communicate clearly, listen to their input, and respect their time. I try to be a team player who helps make everyone’s job easier.
+
+What are your career goals as a UI/UX designer?
+
+In the next few years, I’d like to become a mid-level or senior designer, work on larger products, and maybe mentor junior designers. I’m also interested in learning more about UX strategy.
+
+Do you have any questions for us?
+
+Yes. How does your team balance creativity and consistency in the design process, especially when scaling products?

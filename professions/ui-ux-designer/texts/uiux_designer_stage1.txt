@@ -1,0 +1,39 @@
+Can you briefly tell me about your background in UI/UX design?
+
+Sure. I completed a UI/UX design course last year and have been working for about a year in a junior design role. I’ve worked on mobile app and web interface projects, focusing on user flows, wireframes, and visual design.
+
+What design tools do you use most often?
+
+I mainly use Figma for wireframing, prototyping, and collaboration. I also use Adobe XD and sometimes Photoshop or Illustrator for asset creation.
+
+What types of projects have you worked on so far?
+
+I’ve worked on a mobile health tracking app, a website redesign for a local business, and some landing pages for a SaaS product. Most of my work has been in user interface design with some involvement in research.
+
+What’s your process when starting a new design project?
+
+I start by understanding the user and business goals, review any research or data available, create wireframes and low-fidelity prototypes, and then iterate based on feedback before moving to high-fidelity designs.
+
+Do you have experience with user research or usability testing?
+
+Yes. I’ve helped prepare user surveys and moderated a few usability tests. I also reviewed feedback and helped translate it into design improvements.
+
+Are you comfortable working with developers?
+
+Yes. In my last role, I worked closely with developers to hand off designs and clarify interactions. I made sure everything was well-documented in Figma and used components for consistency.
+
+How do you handle feedback from clients or stakeholders?
+
+I try to stay open and listen carefully. If I disagree, I ask questions to understand their concerns and then explain my design decisions clearly. I see feedback as part of the creative process.
+
+What type of projects or industries interest you most?
+
+I’m especially interested in health tech, education, and productivity tools—products that solve real user problems and require thoughtful UX.
+
+Are you looking for remote, hybrid, or in-office work?
+
+I’m open to remote or hybrid. I’ve worked both ways and value flexibility as long as communication is strong.
+
+Do you have any questions for us?
+
+Yes. How is the design team structured here, and what’s the usual design-review process like?

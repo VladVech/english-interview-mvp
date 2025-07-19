@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Warehouse Worker Vocabulary Flashcards</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f8f8f8; padding: 20px; }
+    .container { display: flex; flex-direction: column; align-items: center; }
+    .card {
+      width: 300px;
+      height: 180px;
+      margin: 20px 0;
+      perspective: 1000px;
+    }
+    .inner-card {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      transition: transform 0.6s;
+    }
+    .card.flipped .inner-card {
+      transform: rotateY(180deg);
+    }
+    .front, .back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: white;
+      padding: 20px;
+      top: 0;
+      left: 0;
+    }
+    .back {
+      transform: rotateY(180deg);
+    }
+    .term {
+      font-weight: bold;
+      font-size: 1.2em;
+      color: #2c3e50;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .meaning {
+      color: #16a085;
+      font-weight: bold;
+      text-align: center;
+    }
+    .synonyms {
+      color: #7f8c8d;
+      margin-top: 10px;
+      text-align: center;
+    }
+    .speaker {
+      margin-top: 10px;
+      font-size: 24px;
+      color: #3498db;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+<h1 style="text-align:center;">Warehouse Worker Vocabulary Flashcards</h1>
+<div class="container">
+
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">I learn new tasks quickly and confidently.</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio0').play();">&#128264;</div>
+          <audio id="audio0">
+            <source src="sounds/01_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Fast learner</div>
+          <div class="synonyms"><strong>Synonyms:</strong> quick to adapt, fast at learning</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">I’m great at adapting to new environments.</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio1').play();">&#128264;</div>
+          <audio id="audio1">
+            <source src="sounds/02_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Flexible worker</div>
+          <div class="synonyms"><strong>Synonyms:</strong> adaptable, quick to adjust</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">I stay calm and efficient even under pressure.</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio2').play();">&#128264;</div>
+          <audio id="audio2">
+            <source src="sounds/03_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Calm under stress</div>
+          <div class="synonyms"><strong>Synonyms:</strong> cool-headed, steady</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">I pick things up faster than most people.</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio3').play();">&#128264;</div>
+          <audio id="audio3">
+            <source src="sounds/04_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Quick learner</div>
+          <div class="synonyms"><strong>Synonyms:</strong> fast learner, eager to learn</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">I’m reliable and always show up on time.</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio4').play();">&#128264;</div>
+          <audio id="audio4">
+            <source src="sounds/05_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Punctual & reliable</div>
+          <div class="synonyms"><strong>Synonyms:</strong> dependable, on-time</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">I take pride in doing my job well.</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio5').play();">&#128264;</div>
+          <audio id="audio5">
+            <source src="sounds/06_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Hardworking</div>
+          <div class="synonyms"><strong>Synonyms:</strong> dedicated, committed</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">I always find a way to get the work done.</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio6').play();">&#128264;</div>
+          <audio id="audio6">
+            <source src="sounds/07_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Problem solver</div>
+          <div class="synonyms"><strong>Synonyms:</strong> resourceful, persistent</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">I’m not afraid to take initiative when needed.</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio7').play();">&#128264;</div>
+          <audio id="audio7">
+            <source src="sounds/08_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Takes initiative</div>
+          <div class="synonyms"><strong>Synonyms:</strong> self-starter, motivated</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">I bring positive energy to the team.</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio8').play();">&#128264;</div>
+          <audio id="audio8">
+            <source src="sounds/09_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Team motivator</div>
+          <div class="synonyms"><strong>Synonyms:</strong> enthusiastic, encouraging</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">I’m one of the best when it comes to staying organized.</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio9').play();">&#128264;</div>
+          <audio id="audio9">
+            <source src="sounds/10_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Highly organized</div>
+          <div class="synonyms"><strong>Synonyms:</strong> orderly, neat</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">warehouse</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio10').play();">&#128264;</div>
+          <audio id="audio10">
+            <source src="sounds/11_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Storage building</div>
+          <div class="synonyms"><strong>Synonyms:</strong> depot, facility</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">forklift</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio11').play();">&#128264;</div>
+          <audio id="audio11">
+            <source src="sounds/12_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Lifting vehicle</div>
+          <div class="synonyms"><strong>Synonyms:</strong> pallet truck, loader</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">pallet</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio12').play();">&#128264;</div>
+          <audio id="audio12">
+            <source src="sounds/13_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Load base</div>
+          <div class="synonyms"><strong>Synonyms:</strong> platform, skid</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">inventory</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio13').play();">&#128264;</div>
+          <audio id="audio13">
+            <source src="sounds/14_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Stock count</div>
+          <div class="synonyms"><strong>Synonyms:</strong> stock, supply list</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">safety vest</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio14').play();">&#128264;</div>
+          <audio id="audio14">
+            <source src="sounds/15_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Protective clothing</div>
+          <div class="synonyms"><strong>Synonyms:</strong> hi-vis vest, reflective vest</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">barcode scanner</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio15').play();">&#128264;</div>
+          <audio id="audio15">
+            <source src="sounds/16_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Code reader</div>
+          <div class="synonyms"><strong>Synonyms:</strong> scanner, reader</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">loading dock</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio16').play();">&#128264;</div>
+          <audio id="audio16">
+            <source src="sounds/17_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Truck bay</div>
+          <div class="synonyms"><strong>Synonyms:</strong> dock, loading area</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">shipping</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio17').play();">&#128264;</div>
+          <audio id="audio17">
+            <source src="sounds/18_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Sending goods</div>
+          <div class="synonyms"><strong>Synonyms:</strong> delivery, transport</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">receiving</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio18').play();">&#128264;</div>
+          <audio id="audio18">
+            <source src="sounds/19_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Incoming goods</div>
+          <div class="synonyms"><strong>Synonyms:</strong> accepting, unloading</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">picking list</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio19').play();">&#128264;</div>
+          <audio id="audio19">
+            <source src="sounds/20_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Item checklist</div>
+          <div class="synonyms"><strong>Synonyms:</strong> order sheet, pick ticket</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">packing</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio20').play();">&#128264;</div>
+          <audio id="audio20">
+            <source src="sounds/21_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Boxing items</div>
+          <div class="synonyms"><strong>Synonyms:</strong> wrapping, boxing</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">labeling</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio21').play();">&#128264;</div>
+          <audio id="audio21">
+            <source src="sounds/22_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Adding tags</div>
+          <div class="synonyms"><strong>Synonyms:</strong> tagging, marking</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">RF scanner</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio22').play();">&#128264;</div>
+          <audio id="audio22">
+            <source src="sounds/23_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Wireless scanner</div>
+          <div class="synonyms"><strong>Synonyms:</strong> hand scanner, radio scanner</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">manual handling</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio23').play();">&#128264;</div>
+          <audio id="audio23">
+            <source src="sounds/24_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Lifting by hand</div>
+          <div class="synonyms"><strong>Synonyms:</strong> hand lifting, physical handling</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">stockroom</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio24').play();">&#128264;</div>
+          <audio id="audio24">
+            <source src="sounds/25_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Storage room</div>
+          <div class="synonyms"><strong>Synonyms:</strong> inventory room, supply room</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">order fulfillment</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio25').play();">&#128264;</div>
+          <audio id="audio25">
+            <source src="sounds/26_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Order processing</div>
+          <div class="synonyms"><strong>Synonyms:</strong> processing orders, shipment prep</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">delivery schedule</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio26').play();">&#128264;</div>
+          <audio id="audio26">
+            <source src="sounds/27_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Shipping plan</div>
+          <div class="synonyms"><strong>Synonyms:</strong> dispatch plan, shipment timing</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">warehouse management system</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio27').play();">&#128264;</div>
+          <audio id="audio27">
+            <source src="sounds/28_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Inventory software</div>
+          <div class="synonyms"><strong>Synonyms:</strong> WMS, inventory control</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">conveyor belt</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio28').play();">&#128264;</div>
+          <audio id="audio28">
+            <source src="sounds/29_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Moving belt</div>
+          <div class="synonyms"><strong>Synonyms:</strong> belt system, roller track</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">fragile</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio29').play();">&#128264;</div>
+          <audio id="audio29">
+            <source src="sounds/30_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Breakable</div>
+          <div class="synonyms"><strong>Synonyms:</strong> delicate, easily broken</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">box cutter</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio30').play();">&#128264;</div>
+          <audio id="audio30">
+            <source src="sounds/31_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Opening tool</div>
+          <div class="synonyms"><strong>Synonyms:</strong> utility knife, blade</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">stacking</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio31').play();">&#128264;</div>
+          <audio id="audio31">
+            <source src="sounds/32_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Piling up</div>
+          <div class="synonyms"><strong>Synonyms:</strong> loading, arranging</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">lifting</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio32').play();">&#128264;</div>
+          <audio id="audio32">
+            <source src="sounds/33_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Raising up</div>
+          <div class="synonyms"><strong>Synonyms:</strong> carrying, hoisting</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">storage bin</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio33').play();">&#128264;</div>
+          <audio id="audio33">
+            <source src="sounds/34_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Holding box</div>
+          <div class="synonyms"><strong>Synonyms:</strong> container, tote</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">shelving</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio34').play();">&#128264;</div>
+          <audio id="audio34">
+            <source src="sounds/35_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Storage racks</div>
+          <div class="synonyms"><strong>Synonyms:</strong> shelves, racks</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">packing tape</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio35').play();">&#128264;</div>
+          <audio id="audio35">
+            <source src="sounds/36_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Sealing tape</div>
+          <div class="synonyms"><strong>Synonyms:</strong> box tape, adhesive tape</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">heavy lifting</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio36').play();">&#128264;</div>
+          <audio id="audio36">
+            <source src="sounds/37_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Moving weight</div>
+          <div class="synonyms"><strong>Synonyms:</strong> manual lifting, physical work</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">hand truck</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio37').play();">&#128264;</div>
+          <audio id="audio37">
+            <source src="sounds/38_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Moving cart</div>
+          <div class="synonyms"><strong>Synonyms:</strong> dolly, cart</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">pallet jack</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio38').play();">&#128264;</div>
+          <audio id="audio38">
+            <source src="sounds/39_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Manual lifter</div>
+          <div class="synonyms"><strong>Synonyms:</strong> hand jack, pump truck</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">logistics</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio39').play();">&#128264;</div>
+          <audio id="audio39">
+            <source src="sounds/40_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Goods planning</div>
+          <div class="synonyms"><strong>Synonyms:</strong> supply chain, distribution</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">reorder level</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio40').play();">&#128264;</div>
+          <audio id="audio40">
+            <source src="sounds/41_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Restock point</div>
+          <div class="synonyms"><strong>Synonyms:</strong> low stock limit, trigger point</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">safety procedures</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio41').play();">&#128264;</div>
+          <audio id="audio41">
+            <source src="sounds/42_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Work rules</div>
+          <div class="synonyms"><strong>Synonyms:</strong> safety rules, protocols</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">backorder</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio42').play();">&#128264;</div>
+          <audio id="audio42">
+            <source src="sounds/43_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Delayed item</div>
+          <div class="synonyms"><strong>Synonyms:</strong> pending order, waiting list</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">overstock</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio43').play();">&#128264;</div>
+          <audio id="audio43">
+            <source src="sounds/44_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Too much stock</div>
+          <div class="synonyms"><strong>Synonyms:</strong> extra inventory, surplus</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">cycle count</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio44').play();">&#128264;</div>
+          <audio id="audio44">
+            <source src="sounds/45_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Inventory check</div>
+          <div class="synonyms"><strong>Synonyms:</strong> stock audit, counting session</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">delivery receipt</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio45').play();">&#128264;</div>
+          <audio id="audio45">
+            <source src="sounds/46_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Proof of delivery</div>
+          <div class="synonyms"><strong>Synonyms:</strong> delivery note, confirmation slip</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">pick and pack</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio46').play();">&#128264;</div>
+          <audio id="audio46">
+            <source src="sounds/47_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Select & box</div>
+          <div class="synonyms"><strong>Synonyms:</strong> pick/ship, fulfill order</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">restocking</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio47').play();">&#128264;</div>
+          <audio id="audio47">
+            <source src="sounds/48_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Refilling shelves</div>
+          <div class="synonyms"><strong>Synonyms:</strong> reloading, replenishing</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">supply chain</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio48').play();">&#128264;</div>
+          <audio id="audio48">
+            <source src="sounds/49_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Flow of goods</div>
+          <div class="synonyms"><strong>Synonyms:</strong> distribution chain, logistics path</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">bin location</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio49').play();">&#128264;</div>
+          <audio id="audio49">
+            <source src="sounds/50_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Item position</div>
+          <div class="synonyms"><strong>Synonyms:</strong> storage spot, inventory slot</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card" onclick="this.classList.toggle('flipped')">
+      <div class="inner-card">
+        <div class="front">
+          <div class="term">count accuracy</div>
+          <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio50').play();">&#128264;</div>
+          <audio id="audio50">
+            <source src="sounds/51_Chapter 1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+        <div class="back">
+          <div class="meaning">Correct numbers</div>
+          <div class="synonyms"><strong>Synonyms:</strong> precise count, inventory match</div>
+        </div>
+      </div>
+    </div>
+    
+</div>
+</body>
+</html>

@@ -1,0 +1,410 @@
+[
+  {
+    "term": "I learn new tasks quickly and confidently.",
+    "meaning": "Fast learner",
+    "synonyms": [
+      "quick to adapt",
+      "fast at learning"
+    ]
+  },
+  {
+    "term": "I\u2019m great at adapting to new environments.",
+    "meaning": "Flexible worker",
+    "synonyms": [
+      "adaptable",
+      "quick to adjust"
+    ]
+  },
+  {
+    "term": "I stay calm and efficient even under pressure.",
+    "meaning": "Calm under stress",
+    "synonyms": [
+      "cool-headed",
+      "steady"
+    ]
+  },
+  {
+    "term": "I pick things up faster than most people.",
+    "meaning": "Quick learner",
+    "synonyms": [
+      "fast learner",
+      "eager to learn"
+    ]
+  },
+  {
+    "term": "I\u2019m reliable and always show up on time.",
+    "meaning": "Punctual & reliable",
+    "synonyms": [
+      "dependable",
+      "on-time"
+    ]
+  },
+  {
+    "term": "I take pride in doing my job well.",
+    "meaning": "Hardworking",
+    "synonyms": [
+      "dedicated",
+      "committed"
+    ]
+  },
+  {
+    "term": "I always find a way to get the work done.",
+    "meaning": "Problem solver",
+    "synonyms": [
+      "resourceful",
+      "persistent"
+    ]
+  },
+  {
+    "term": "I\u2019m not afraid to take initiative when needed.",
+    "meaning": "Takes initiative",
+    "synonyms": [
+      "self-starter",
+      "motivated"
+    ]
+  },
+  {
+    "term": "I bring positive energy to the team.",
+    "meaning": "Team motivator",
+    "synonyms": [
+      "enthusiastic",
+      "encouraging"
+    ]
+  },
+  {
+    "term": "I\u2019m one of the best when it comes to staying organized.",
+    "meaning": "Highly organized",
+    "synonyms": [
+      "orderly",
+      "neat"
+    ]
+  },
+  {
+    "term": "warehouse",
+    "meaning": "Storage building",
+    "synonyms": [
+      "depot",
+      "facility"
+    ]
+  },
+  {
+    "term": "forklift",
+    "meaning": "Lifting vehicle",
+    "synonyms": [
+      "pallet truck",
+      "loader"
+    ]
+  },
+  {
+    "term": "pallet",
+    "meaning": "Load base",
+    "synonyms": [
+      "platform",
+      "skid"
+    ]
+  },
+  {
+    "term": "inventory",
+    "meaning": "Stock count",
+    "synonyms": [
+      "stock",
+      "supply list"
+    ]
+  },
+  {
+    "term": "safety vest",
+    "meaning": "Protective clothing",
+    "synonyms": [
+      "hi-vis vest",
+      "reflective vest"
+    ]
+  },
+  {
+    "term": "barcode scanner",
+    "meaning": "Code reader",
+    "synonyms": [
+      "scanner",
+      "reader"
+    ]
+  },
+  {
+    "term": "loading dock",
+    "meaning": "Truck bay",
+    "synonyms": [
+      "dock",
+      "loading area"
+    ]
+  },
+  {
+    "term": "shipping",
+    "meaning": "Sending goods",
+    "synonyms": [
+      "delivery",
+      "transport"
+    ]
+  },
+  {
+    "term": "receiving",
+    "meaning": "Incoming goods",
+    "synonyms": [
+      "accepting",
+      "unloading"
+    ]
+  },
+  {
+    "term": "picking list",
+    "meaning": "Item checklist",
+    "synonyms": [
+      "order sheet",
+      "pick ticket"
+    ]
+  },
+  {
+    "term": "packing",
+    "meaning": "Boxing items",
+    "synonyms": [
+      "wrapping",
+      "boxing"
+    ]
+  },
+  {
+    "term": "labeling",
+    "meaning": "Adding tags",
+    "synonyms": [
+      "tagging",
+      "marking"
+    ]
+  },
+  {
+    "term": "RF scanner",
+    "meaning": "Wireless scanner",
+    "synonyms": [
+      "hand scanner",
+      "radio scanner"
+    ]
+  },
+  {
+    "term": "manual handling",
+    "meaning": "Lifting by hand",
+    "synonyms": [
+      "hand lifting",
+      "physical handling"
+    ]
+  },
+  {
+    "term": "stockroom",
+    "meaning": "Storage room",
+    "synonyms": [
+      "inventory room",
+      "supply room"
+    ]
+  },
+  {
+    "term": "order fulfillment",
+    "meaning": "Order processing",
+    "synonyms": [
+      "processing orders",
+      "shipment prep"
+    ]
+  },
+  {
+    "term": "delivery schedule",
+    "meaning": "Shipping plan",
+    "synonyms": [
+      "dispatch plan",
+      "shipment timing"
+    ]
+  },
+  {
+    "term": "warehouse management system",
+    "meaning": "Inventory software",
+    "synonyms": [
+      "WMS",
+      "inventory control"
+    ]
+  },
+  {
+    "term": "conveyor belt",
+    "meaning": "Moving belt",
+    "synonyms": [
+      "belt system",
+      "roller track"
+    ]
+  },
+  {
+    "term": "fragile",
+    "meaning": "Breakable",
+    "synonyms": [
+      "delicate",
+      "easily broken"
+    ]
+  },
+  {
+    "term": "box cutter",
+    "meaning": "Opening tool",
+    "synonyms": [
+      "utility knife",
+      "blade"
+    ]
+  },
+  {
+    "term": "stacking",
+    "meaning": "Piling up",
+    "synonyms": [
+      "loading",
+      "arranging"
+    ]
+  },
+  {
+    "term": "lifting",
+    "meaning": "Raising up",
+    "synonyms": [
+      "carrying",
+      "hoisting"
+    ]
+  },
+  {
+    "term": "storage bin",
+    "meaning": "Holding box",
+    "synonyms": [
+      "container",
+      "tote"
+    ]
+  },
+  {
+    "term": "shelving",
+    "meaning": "Storage racks",
+    "synonyms": [
+      "shelves",
+      "racks"
+    ]
+  },
+  {
+    "term": "packing tape",
+    "meaning": "Sealing tape",
+    "synonyms": [
+      "box tape",
+      "adhesive tape"
+    ]
+  },
+  {
+    "term": "heavy lifting",
+    "meaning": "Moving weight",
+    "synonyms": [
+      "manual lifting",
+      "physical work"
+    ]
+  },
+  {
+    "term": "hand truck",
+    "meaning": "Moving cart",
+    "synonyms": [
+      "dolly",
+      "cart"
+    ]
+  },
+  {
+    "term": "pallet jack",
+    "meaning": "Manual lifter",
+    "synonyms": [
+      "hand jack",
+      "pump truck"
+    ]
+  },
+  {
+    "term": "logistics",
+    "meaning": "Goods planning",
+    "synonyms": [
+      "supply chain",
+      "distribution"
+    ]
+  },
+  {
+    "term": "reorder level",
+    "meaning": "Restock point",
+    "synonyms": [
+      "low stock limit",
+      "trigger point"
+    ]
+  },
+  {
+    "term": "safety procedures",
+    "meaning": "Work rules",
+    "synonyms": [
+      "safety rules",
+      "protocols"
+    ]
+  },
+  {
+    "term": "backorder",
+    "meaning": "Delayed item",
+    "synonyms": [
+      "pending order",
+      "waiting list"
+    ]
+  },
+  {
+    "term": "overstock",
+    "meaning": "Too much stock",
+    "synonyms": [
+      "extra inventory",
+      "surplus"
+    ]
+  },
+  {
+    "term": "cycle count",
+    "meaning": "Inventory check",
+    "synonyms": [
+      "stock audit",
+      "counting session"
+    ]
+  },
+  {
+    "term": "delivery receipt",
+    "meaning": "Proof of delivery",
+    "synonyms": [
+      "delivery note",
+      "confirmation slip"
+    ]
+  },
+  {
+    "term": "pick and pack",
+    "meaning": "Select & box",
+    "synonyms": [
+      "pick/ship",
+      "fulfill order"
+    ]
+  },
+  {
+    "term": "restocking",
+    "meaning": "Refilling shelves",
+    "synonyms": [
+      "reloading",
+      "replenishing"
+    ]
+  },
+  {
+    "term": "supply chain",
+    "meaning": "Flow of goods",
+    "synonyms": [
+      "distribution chain",
+      "logistics path"
+    ]
+  },
+  {
+    "term": "bin location",
+    "meaning": "Item position",
+    "synonyms": [
+      "storage spot",
+      "inventory slot"
+    ]
+  },
+  {
+    "term": "count accuracy",
+    "meaning": "Correct numbers",
+    "synonyms": [
+      "precise count",
+      "inventory match"
+    ]
+  }
+]
