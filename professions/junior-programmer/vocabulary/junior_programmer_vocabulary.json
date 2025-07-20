@@ -1,0 +1,322 @@
+[
+  {
+    "term": "I enjoy solving technical problems creatively.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "analytical",
+      "detail-oriented",
+      "curious"
+    ]
+  },
+  {
+    "term": "I learn new programming languages quickly.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "analytical",
+      "detail-oriented",
+      "curious"
+    ]
+  },
+  {
+    "term": "I\u2019m patient and focused when debugging.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "analytical",
+      "detail-oriented",
+      "curious"
+    ]
+  },
+  {
+    "term": "I work well with teams and communicate clearly.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "analytical",
+      "detail-oriented",
+      "curious"
+    ]
+  },
+  {
+    "term": "I take pride in writing clean, efficient code.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "analytical",
+      "detail-oriented",
+      "curious"
+    ]
+  },
+  {
+    "term": "I follow coding standards and best practices.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "analytical",
+      "detail-oriented",
+      "curious"
+    ]
+  },
+  {
+    "term": "I\u2019m eager to grow and take feedback well.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "analytical",
+      "detail-oriented",
+      "curious"
+    ]
+  },
+  {
+    "term": "I\u2019m organized and manage my time effectively.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "analytical",
+      "detail-oriented",
+      "curious"
+    ]
+  },
+  {
+    "term": "I always test my code carefully.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "analytical",
+      "detail-oriented",
+      "curious"
+    ]
+  },
+  {
+    "term": "I enjoy building software that helps people.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "analytical",
+      "detail-oriented",
+      "curious"
+    ]
+  },
+  {
+    "term": "version control",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "GitHub",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "debugging",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "IDE",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "compiler",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "syntax error",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "for loop",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "function",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "variable",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "conditional",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "JavaScript",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "Python",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "HTML",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "CSS",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "React",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "frontend",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "backend",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "API",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "terminal",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "command line",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "code editor",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "repository",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "commit",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "pull request",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "merge conflict",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "code review",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "unit test",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "framework",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "package manager",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "npm",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "library",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "function call",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "logic error",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "responsive design",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "REST API",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "deployment",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "localhost",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "browser dev tools",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "agile workflow",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "sprint",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "ticket system",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "feature branch",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "data structure",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "algorithm",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "bug tracker",
+    "meaning": "programming-related",
+    "synonyms": []
+  },
+  {
+    "term": "codebase",
+    "meaning": "programming-related",
+    "synonyms": []
+  }
+]

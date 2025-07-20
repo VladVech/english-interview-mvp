@@ -1,0 +1,312 @@
+[
+  {
+    "term": "I truly care about people and their well-being.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "caring",
+      "patient",
+      "trustworthy"
+    ]
+  },
+  {
+    "term": "I\u2019m patient and calm in difficult situations.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "caring",
+      "patient",
+      "trustworthy"
+    ]
+  },
+  {
+    "term": "I\u2019m dependable and always show up on time.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "caring",
+      "patient",
+      "trustworthy"
+    ]
+  },
+  {
+    "term": "I listen closely and follow care instructions.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "caring",
+      "patient",
+      "trustworthy"
+    ]
+  },
+  {
+    "term": "I enjoy helping others with daily tasks.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "caring",
+      "patient",
+      "trustworthy"
+    ]
+  },
+  {
+    "term": "I take pride in keeping clients safe and comfortable.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "caring",
+      "patient",
+      "trustworthy"
+    ]
+  },
+  {
+    "term": "I\u2019m respectful and kind to everyone I work with.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "caring",
+      "patient",
+      "trustworthy"
+    ]
+  },
+  {
+    "term": "I stay organized and keep good records.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "caring",
+      "patient",
+      "trustworthy"
+    ]
+  },
+  {
+    "term": "I know how to stay calm in emergencies.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "caring",
+      "patient",
+      "trustworthy"
+    ]
+  },
+  {
+    "term": "I make people feel supported and valued.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "caring",
+      "patient",
+      "trustworthy"
+    ]
+  },
+  {
+    "term": "mobility support",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "medication reminder",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "meal preparation",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "personal hygiene",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "bathing assistance",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "toileting",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "dressing help",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "wheelchair use",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "lifting aid",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "walker",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "bedside care",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "daily routine",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "companionship",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "dementia care",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "memory support",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "light housekeeping",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "vital signs",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "care log",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "night shift",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "respite care",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "non-slip shoes",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "incontinence care",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "hearing aid",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "pill organizer",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "appointment reminder",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "emergency contact",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "CPR trained",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "safety checks",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "transport to doctor",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "grocery shopping",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "laundry",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "adaptive utensils",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "bed making",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "pill schedule",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "care plan",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "hydration",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "nutrition",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "infection control",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "soothing voice",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "gentle touch",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "family communication",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "routine monitoring",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "respect and dignity",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  },
+  {
+    "term": "trust building",
+    "meaning": "caregiving-related",
+    "synonyms": []
+  }
+]

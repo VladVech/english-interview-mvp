@@ -1,0 +1,312 @@
+[
+  {
+    "term": "I enjoy bringing ideas to life through 3D art.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "collaborative",
+      "technically skilled"
+    ]
+  },
+  {
+    "term": "I\u2019m confident using Blender and learning new tools.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "collaborative",
+      "technically skilled"
+    ]
+  },
+  {
+    "term": "I work well with creative teams and take feedback positively.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "collaborative",
+      "technically skilled"
+    ]
+  },
+  {
+    "term": "I\u2019m organized and manage project files efficiently.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "collaborative",
+      "technically skilled"
+    ]
+  },
+  {
+    "term": "I pay attention to modeling details and proportions.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "collaborative",
+      "technically skilled"
+    ]
+  },
+  {
+    "term": "I meet deadlines and follow creative briefs.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "collaborative",
+      "technically skilled"
+    ]
+  },
+  {
+    "term": "I\u2019m always improving my artistic and technical skills.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "collaborative",
+      "technically skilled"
+    ]
+  },
+  {
+    "term": "I enjoy solving visual problems creatively.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "collaborative",
+      "technically skilled"
+    ]
+  },
+  {
+    "term": "I communicate well with clients and team members.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "collaborative",
+      "technically skilled"
+    ]
+  },
+  {
+    "term": "I\u2019m proud of the work I produce and how I grow.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "collaborative",
+      "technically skilled"
+    ]
+  },
+  {
+    "term": "Blender",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "viewport",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "3D modeling",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "UV mapping",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "texture painting",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "low poly",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "high poly",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "subdivision surface",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "modifier",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "boolean",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "materials",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "shader",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "nodes",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "render engine",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "Cycles",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "Eevee",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "bake texture",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "PBR",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "normal map",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "ambient occlusion",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "lighting setup",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "key light",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "rim light",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "render pass",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "camera angle",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "frame rate",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "animation keyframe",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "timeline",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "object mode",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "edit mode",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "sculpting",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "weight painting",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "rigging",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "armature",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "IK chain",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "constraints",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "bone parenting",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "camera tracking",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "render settings",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "output resolution",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "shading tab",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "material preview",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "render queue",
+    "meaning": "3D art-related",
+    "synonyms": []
+  },
+  {
+    "term": "keyframe interpolation",
+    "meaning": "3D art-related",
+    "synonyms": []
+  }
+]

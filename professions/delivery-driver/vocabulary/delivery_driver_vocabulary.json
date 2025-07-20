@@ -1,0 +1,312 @@
+[
+  {
+    "term": "I\u2019m always on time and dependable.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "punctual",
+      "organized",
+      "adaptable"
+    ]
+  },
+  {
+    "term": "I know how to navigate routes efficiently.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "punctual",
+      "organized",
+      "adaptable"
+    ]
+  },
+  {
+    "term": "I handle packages with great care.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "punctual",
+      "organized",
+      "adaptable"
+    ]
+  },
+  {
+    "term": "I work well under pressure and on tight deadlines.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "punctual",
+      "organized",
+      "adaptable"
+    ]
+  },
+  {
+    "term": "I\u2019m focused and alert while driving.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "punctual",
+      "organized",
+      "adaptable"
+    ]
+  },
+  {
+    "term": "I\u2019m good at solving problems on the go.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "punctual",
+      "organized",
+      "adaptable"
+    ]
+  },
+  {
+    "term": "I enjoy working independently.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "punctual",
+      "organized",
+      "adaptable"
+    ]
+  },
+  {
+    "term": "I keep a positive attitude with customers.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "punctual",
+      "organized",
+      "adaptable"
+    ]
+  },
+  {
+    "term": "I\u2019m organized and keep track of deliveries.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "punctual",
+      "organized",
+      "adaptable"
+    ]
+  },
+  {
+    "term": "I\u2019m quick to adapt to traffic or weather issues.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "punctual",
+      "organized",
+      "adaptable"
+    ]
+  },
+  {
+    "term": "delivery route",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "GPS navigation",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "package scanning",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "drop-off",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "pickup",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "parcel",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "delivery van",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "address label",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "delivery log",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "signature",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "fragile items",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "delivery window",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "time management",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "loading",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "unloading",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "safety check",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "driver\u2019s license",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "driving record",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "customer service",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "doorstep delivery",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "route planning",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "vehicle maintenance",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "delivery slip",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "cargo area",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "proof of delivery",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "tracking number",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "delivery zone",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "delivery schedule",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "rain or shine",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "heavy package",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "delivery bag",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "map reading",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "courier company",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "delayed delivery",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "fast service",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "delivery confirmation",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "fuel efficiency",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "stop and go",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "hand truck",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "street address",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "mobile app",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "contactless delivery",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "scanner device",
+    "meaning": "delivery-related",
+    "synonyms": []
+  },
+  {
+    "term": "vehicle inspection",
+    "meaning": "delivery-related",
+    "synonyms": []
+  }
+]

@@ -1,0 +1,107 @@
+I enjoy finding bugs and improving software.
+
+I’m detail-oriented and careful in my work.
+
+I’m good at documenting test results clearly.
+
+I follow test cases and instructions precisely.
+
+I stay calm and focused when issues arise.
+
+I ask questions and learn from feedback.
+
+I like working closely with developers.
+
+I test thoroughly before signing off.
+
+I learn new tools and systems quickly.
+
+I always meet deadlines and take responsibility.
+
+test case
+
+bug report
+
+test plan
+
+regression testing
+
+manual testing
+
+automated testing
+
+test script
+
+test data
+
+test environment
+
+defect
+
+reproduce bug
+
+screenshot
+
+log file
+
+QA process
+
+test coverage
+
+acceptance criteria
+
+functional test
+
+smoke test
+
+sanity check
+
+issue tracker
+
+Jira
+
+bug ID
+
+test execution
+
+test result
+
+exploratory testing
+
+user story
+
+QA cycle
+
+priority
+
+severity
+
+test step
+
+expected result
+
+actual result
+
+release notes
+
+build version
+
+UI testing
+
+cross-browser
+
+test matrix
+
+quality gate
+
+click path
+
+error message
+
+assertion
+
+pass/fail
+
+test case ID
+
+test suite

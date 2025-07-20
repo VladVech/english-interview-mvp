@@ -1,0 +1,111 @@
+I enjoy solving technical problems creatively.
+
+I learn new programming languages quickly.
+
+I’m patient and focused when debugging.
+
+I work well with teams and communicate clearly.
+
+I take pride in writing clean, efficient code.
+
+I follow coding standards and best practices.
+
+I’m eager to grow and take feedback well.
+
+I’m organized and manage my time effectively.
+
+I always test my code carefully.
+
+I enjoy building software that helps people.
+
+version control
+
+GitHub
+
+debugging
+
+IDE
+
+compiler
+
+syntax error
+
+for loop
+
+function
+
+variable
+
+conditional
+
+JavaScript
+
+Python
+
+HTML
+
+CSS
+
+React
+
+frontend
+
+backend
+
+API
+
+terminal
+
+command line
+
+code editor
+
+repository
+
+commit
+
+pull request
+
+merge conflict
+
+code review
+
+unit test
+
+framework
+
+package manager
+
+npm
+
+library
+
+function call
+
+logic error
+
+responsive design
+
+REST API
+
+deployment
+
+localhost
+
+browser dev tools
+
+agile workflow
+
+sprint
+
+ticket system
+
+feature branch
+
+data structure
+
+algorithm
+
+bug tracker
+
+codebase

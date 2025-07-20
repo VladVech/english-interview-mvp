@@ -1,0 +1,107 @@
+I consistently deliver top-quality 3D work under tight deadlines.
+
+I lead complex projects from concept to final render with precision.
+
+I mentor junior artists and elevate team performance.
+
+I’m recognized for setting visual standards across teams.
+
+I handle client feedback with professionalism and creative insight.
+
+I push technical and artistic boundaries in every project.
+
+I optimize workflows and troubleshoot at an expert level.
+
+I’m trusted with high-profile assignments and key visuals.
+
+I innovate with new tools and stay ahead of industry trends.
+
+I take full ownership of the visual storytelling process.
+
+photorealistic rendering
+
+shader network
+
+PBR workflow
+
+displacement map
+
+normal baking
+
+retopology
+
+mesh optimization
+
+high poly sculpt
+
+low poly asset
+
+LOD (level of detail)
+
+UV unwrapping
+
+tileable textures
+
+procedural materials
+
+node-based shading
+
+multi-pass rendering
+
+render layer
+
+HDRI lighting
+
+animation rig
+
+facial rig
+
+blend shapes
+
+cloth simulation
+
+particle system
+
+physics simulation
+
+scene assembly
+
+render farm
+
+frame compositing
+
+light linking
+
+camera match
+
+depth of field
+
+motion blur
+
+turntable render
+
+portfolio shot
+
+pipeline integration
+
+asset library
+
+color grading
+
+film LUT
+
+project lead
+
+production tracking
+
+scene cleanup
+
+asset validation
+
+creative direction
+
+art review
+
+feedback loop
+
+visual benchmark

@@ -1,0 +1,312 @@
+[
+  {
+    "term": "I consistently deliver top-quality 3D work under tight deadlines.",
+    "meaning": "Leadership trait",
+    "synonyms": [
+      "expert",
+      "visionary",
+      "trusted"
+    ]
+  },
+  {
+    "term": "I lead complex projects from concept to final render with precision.",
+    "meaning": "Leadership trait",
+    "synonyms": [
+      "expert",
+      "visionary",
+      "trusted"
+    ]
+  },
+  {
+    "term": "I mentor junior artists and elevate team performance.",
+    "meaning": "Leadership trait",
+    "synonyms": [
+      "expert",
+      "visionary",
+      "trusted"
+    ]
+  },
+  {
+    "term": "I\u2019m recognized for setting visual standards across teams.",
+    "meaning": "Leadership trait",
+    "synonyms": [
+      "expert",
+      "visionary",
+      "trusted"
+    ]
+  },
+  {
+    "term": "I handle client feedback with professionalism and creative insight.",
+    "meaning": "Leadership trait",
+    "synonyms": [
+      "expert",
+      "visionary",
+      "trusted"
+    ]
+  },
+  {
+    "term": "I push technical and artistic boundaries in every project.",
+    "meaning": "Leadership trait",
+    "synonyms": [
+      "expert",
+      "visionary",
+      "trusted"
+    ]
+  },
+  {
+    "term": "I optimize workflows and troubleshoot at an expert level.",
+    "meaning": "Leadership trait",
+    "synonyms": [
+      "expert",
+      "visionary",
+      "trusted"
+    ]
+  },
+  {
+    "term": "I\u2019m trusted with high-profile assignments and key visuals.",
+    "meaning": "Leadership trait",
+    "synonyms": [
+      "expert",
+      "visionary",
+      "trusted"
+    ]
+  },
+  {
+    "term": "I innovate with new tools and stay ahead of industry trends.",
+    "meaning": "Leadership trait",
+    "synonyms": [
+      "expert",
+      "visionary",
+      "trusted"
+    ]
+  },
+  {
+    "term": "I take full ownership of the visual storytelling process.",
+    "meaning": "Leadership trait",
+    "synonyms": [
+      "expert",
+      "visionary",
+      "trusted"
+    ]
+  },
+  {
+    "term": "photorealistic rendering",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "shader network",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "PBR workflow",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "displacement map",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "normal baking",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "retopology",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "mesh optimization",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "high poly sculpt",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "low poly asset",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "LOD (level of detail)",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "UV unwrapping",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "tileable textures",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "procedural materials",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "node-based shading",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "multi-pass rendering",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "render layer",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "HDRI lighting",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "animation rig",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "facial rig",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "blend shapes",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "cloth simulation",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "particle system",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "physics simulation",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "scene assembly",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "render farm",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "frame compositing",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "light linking",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "camera match",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "depth of field",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "motion blur",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "turntable render",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "portfolio shot",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "pipeline integration",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "asset library",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "color grading",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "film LUT",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "project lead",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "production tracking",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "scene cleanup",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "asset validation",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "creative direction",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "art review",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "feedback loop",
+    "meaning": "3D production term",
+    "synonyms": []
+  },
+  {
+    "term": "visual benchmark",
+    "meaning": "3D production term",
+    "synonyms": []
+  }
+]

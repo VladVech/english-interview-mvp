@@ -1,0 +1,322 @@
+[
+  {
+    "term": "I enjoy working in a fast-paced kitchen.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "reliable",
+      "adaptable",
+      "supportive"
+    ]
+  },
+  {
+    "term": "I\u2019m quick and careful when handling food.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "reliable",
+      "adaptable",
+      "supportive"
+    ]
+  },
+  {
+    "term": "I stay calm and focused during busy hours.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "reliable",
+      "adaptable",
+      "supportive"
+    ]
+  },
+  {
+    "term": "I follow kitchen rules and hygiene procedures.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "reliable",
+      "adaptable",
+      "supportive"
+    ]
+  },
+  {
+    "term": "I take pride in helping the team run smoothly.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "reliable",
+      "adaptable",
+      "supportive"
+    ]
+  },
+  {
+    "term": "I\u2019m always ready to do what\u2019s needed.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "reliable",
+      "adaptable",
+      "supportive"
+    ]
+  },
+  {
+    "term": "I\u2019m reliable and show up on time.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "reliable",
+      "adaptable",
+      "supportive"
+    ]
+  },
+  {
+    "term": "I learn quickly and adapt to kitchen tasks.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "reliable",
+      "adaptable",
+      "supportive"
+    ]
+  },
+  {
+    "term": "I keep my station clean and organized.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "reliable",
+      "adaptable",
+      "supportive"
+    ]
+  },
+  {
+    "term": "I enjoy supporting chefs and coworkers.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "reliable",
+      "adaptable",
+      "supportive"
+    ]
+  },
+  {
+    "term": "food prep",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "cutting board",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "kitchen knife",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "dishwashing",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "sanitizing",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "gloves",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "apron",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "hairnet",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "meal prep",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "chopping vegetables",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "cleaning surfaces",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "trash removal",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "food safety",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "ingredient bins",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "pantry",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "fridge",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "freezer",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "soup pot",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "stock",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "ladle",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "serving line",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "tray setup",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "food containers",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "plastic wrap",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "labeling food",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "portioning",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "peeling",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "slicing",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "mixing bowl",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "baking tray",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "spill cleanup",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "cooking station",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "hot surface",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "burn risk",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "kitchen timer",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "staff meals",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "measuring spoons",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "recipe",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "food waste",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "health inspection",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "prep list",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "clean-up shift",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "chef support",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "utensils",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "steam table",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  },
+  {
+    "term": "daily duties",
+    "meaning": "kitchen-related",
+    "synonyms": []
+  }
+]

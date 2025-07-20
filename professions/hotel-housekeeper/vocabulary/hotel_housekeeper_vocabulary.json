@@ -1,0 +1,307 @@
+[
+  {
+    "term": "I take pride in making rooms feel like home.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "motivated",
+      "reliable",
+      "efficient"
+    ]
+  },
+  {
+    "term": "I work quickly without sacrificing quality.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "motivated",
+      "reliable",
+      "efficient"
+    ]
+  },
+  {
+    "term": "I always go the extra mile for cleanliness.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "motivated",
+      "reliable",
+      "efficient"
+    ]
+  },
+  {
+    "term": "I keep a positive attitude on every shift.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "motivated",
+      "reliable",
+      "efficient"
+    ]
+  },
+  {
+    "term": "I\u2019m detail-oriented and efficient.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "motivated",
+      "reliable",
+      "efficient"
+    ]
+  },
+  {
+    "term": "I follow instructions carefully and independently.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "motivated",
+      "reliable",
+      "efficient"
+    ]
+  },
+  {
+    "term": "I love bringing comfort to guests.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "motivated",
+      "reliable",
+      "efficient"
+    ]
+  },
+  {
+    "term": "I stay calm when there\u2019s a lot to do.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "motivated",
+      "reliable",
+      "efficient"
+    ]
+  },
+  {
+    "term": "I\u2019m a fast learner and hard worker.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "motivated",
+      "reliable",
+      "efficient"
+    ]
+  },
+  {
+    "term": "I enjoy organizing and tidying spaces.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "motivated",
+      "reliable",
+      "efficient"
+    ]
+  },
+  {
+    "term": "bed making",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "changing linens",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "cleaning bathroom",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "vacuuming",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "mopping floors",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "dusting furniture",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "towel folding",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "restocking supplies",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "trash removal",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "cleaning schedule",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "guest request",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "housekeeping cart",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "mirror cleaning",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "sanitizing surfaces",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "checklist",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "room inspection",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "supply room",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "lost and found",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "room service tray",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "bathroom supplies",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "fresh linens",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "pillow arrangement",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "bedspread",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "plunger",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "laundry room",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "cleaning protocol",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "room turnaround",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "hospitality",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "guest comfort",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "cleaning products",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "work uniform",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "cleaning gloves",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "housekeeping keycard",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "spill cleanup",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "maid service",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "amenities",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "linen closet",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "soiled laundry",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "daily cleaning",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "attention to detail",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "eco-friendly practices",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "cleaning checklist",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  },
+  {
+    "term": "shift duties",
+    "meaning": "housekeeping-related",
+    "synonyms": []
+  }
+]

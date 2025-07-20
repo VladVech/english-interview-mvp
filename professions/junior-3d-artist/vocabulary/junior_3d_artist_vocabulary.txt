@@ -1,0 +1,107 @@
+I enjoy bringing ideas to life through 3D art.
+
+I’m confident using Blender and learning new tools.
+
+I work well with creative teams and take feedback positively.
+
+I’m organized and manage project files efficiently.
+
+I pay attention to modeling details and proportions.
+
+I meet deadlines and follow creative briefs.
+
+I’m always improving my artistic and technical skills.
+
+I enjoy solving visual problems creatively.
+
+I communicate well with clients and team members.
+
+I’m proud of the work I produce and how I grow.
+
+Blender
+
+viewport
+
+3D modeling
+
+UV mapping
+
+texture painting
+
+low poly
+
+high poly
+
+subdivision surface
+
+modifier
+
+boolean
+
+materials
+
+shader
+
+nodes
+
+render engine
+
+Cycles
+
+Eevee
+
+bake texture
+
+PBR
+
+normal map
+
+ambient occlusion
+
+lighting setup
+
+key light
+
+rim light
+
+render pass
+
+camera angle
+
+frame rate
+
+animation keyframe
+
+timeline
+
+object mode
+
+edit mode
+
+sculpting
+
+weight painting
+
+rigging
+
+armature
+
+IK chain
+
+constraints
+
+bone parenting
+
+camera tracking
+
+render settings
+
+output resolution
+
+shading tab
+
+material preview
+
+render queue
+
+keyframe interpolation

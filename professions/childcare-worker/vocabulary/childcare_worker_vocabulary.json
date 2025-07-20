@@ -1,0 +1,317 @@
+[
+  {
+    "term": "I love working with children and helping them grow.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "responsible",
+      "patient",
+      "caring"
+    ]
+  },
+  {
+    "term": "I stay calm and patient in any situation.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "responsible",
+      "patient",
+      "caring"
+    ]
+  },
+  {
+    "term": "I\u2019m responsible and follow safety rules carefully.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "responsible",
+      "patient",
+      "caring"
+    ]
+  },
+  {
+    "term": "I\u2019m creative and know how to keep kids engaged.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "responsible",
+      "patient",
+      "caring"
+    ]
+  },
+  {
+    "term": "I always show up on time and ready to help.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "responsible",
+      "patient",
+      "caring"
+    ]
+  },
+  {
+    "term": "I\u2019m good at solving problems quickly.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "responsible",
+      "patient",
+      "caring"
+    ]
+  },
+  {
+    "term": "I listen carefully and follow instructions from parents.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "responsible",
+      "patient",
+      "caring"
+    ]
+  },
+  {
+    "term": "I keep children safe, clean, and happy.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "responsible",
+      "patient",
+      "caring"
+    ]
+  },
+  {
+    "term": "I\u2019m flexible and can handle surprises.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "responsible",
+      "patient",
+      "caring"
+    ]
+  },
+  {
+    "term": "I enjoy helping children learn through play.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "responsible",
+      "patient",
+      "caring"
+    ]
+  },
+  {
+    "term": "diaper change",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "nap time",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "storytime",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "snack preparation",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "hand washing",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "toy cleanup",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "first aid",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "child safety",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "feeding",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "potty training",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "playroom",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "coloring",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "playground",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "games",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "reading books",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "sippy cup",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "crib",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "baby monitor",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "child routine",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "tantrum",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "bottle feeding",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "bedtime",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "arts and crafts",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "child development",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "puzzle",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "music time",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "clean play area",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "screen time",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "quiet time",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "activity plan",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "emergency contact",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "parent instructions",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "baby wipes",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "booster seat",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "high chair",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "mealtime",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "play supervision",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "childcare journal",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "comforting",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "pacifier",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "bib",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "sibling care",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "safe environment",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "allergy alert",
+    "meaning": "childcare-related",
+    "synonyms": []
+  },
+  {
+    "term": "soft toys",
+    "meaning": "childcare-related",
+    "synonyms": []
+  }
+]

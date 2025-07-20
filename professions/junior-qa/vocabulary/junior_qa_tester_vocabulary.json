@@ -1,0 +1,312 @@
+[
+  {
+    "term": "I enjoy finding bugs and improving software.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "diligent",
+      "precise",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I\u2019m detail-oriented and careful in my work.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "diligent",
+      "precise",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I\u2019m good at documenting test results clearly.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "diligent",
+      "precise",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I follow test cases and instructions precisely.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "diligent",
+      "precise",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I stay calm and focused when issues arise.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "diligent",
+      "precise",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I ask questions and learn from feedback.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "diligent",
+      "precise",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I like working closely with developers.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "diligent",
+      "precise",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I test thoroughly before signing off.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "diligent",
+      "precise",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I learn new tools and systems quickly.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "diligent",
+      "precise",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I always meet deadlines and take responsibility.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "diligent",
+      "precise",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "test case",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "bug report",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "test plan",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "regression testing",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "manual testing",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "automated testing",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "test script",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "test data",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "test environment",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "defect",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "reproduce bug",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "screenshot",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "log file",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "QA process",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "test coverage",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "acceptance criteria",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "functional test",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "smoke test",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "sanity check",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "issue tracker",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "Jira",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "bug ID",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "test execution",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "test result",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "exploratory testing",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "user story",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "QA cycle",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "priority",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "severity",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "test step",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "expected result",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "actual result",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "release notes",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "build version",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "UI testing",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "cross-browser",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "test matrix",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "quality gate",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "click path",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "error message",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "assertion",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "pass/fail",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "test case ID",
+    "meaning": "QA-related",
+    "synonyms": []
+  },
+  {
+    "term": "test suite",
+    "meaning": "QA-related",
+    "synonyms": []
+  }
+]

@@ -1,0 +1,312 @@
+[
+  {
+    "term": "I\u2019m passionate about creating user-friendly designs.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "organized",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I pay close attention to design details.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "organized",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I enjoy working with users and getting feedback.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "organized",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I\u2019m confident using modern design tools.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "organized",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I take criticism positively and improve my work.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "organized",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I always meet deadlines and stay organized.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "organized",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I design with both function and beauty in mind.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "organized",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I collaborate well with developers and stakeholders.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "organized",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I\u2019m constantly learning and growing my skills.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "organized",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "I enjoy solving design challenges creatively.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "creative",
+      "organized",
+      "collaborative"
+    ]
+  },
+  {
+    "term": "user interface",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "user experience",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "wireframe",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "prototype",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "user flow",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "low-fidelity",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "high-fidelity",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "responsive design",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "mobile-first",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "accessibility",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "color palette",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "typography",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "white space",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "visual hierarchy",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "Figma",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "Sketch",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "Adobe XD",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "mockup",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "CTA button",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "navigation bar",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "usability test",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "A/B testing",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "design system",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "style guide",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "UI elements",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "card layout",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "grid system",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "interaction design",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "user persona",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "journey map",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "stakeholder feedback",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "iteration",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "design sprint",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "design brief",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "click-through",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "hover state",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "UI kit",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "microinteractions",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "layout",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "branding",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "user testing",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "interface audit",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "screen resolution",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  },
+  {
+    "term": "design feedback",
+    "meaning": "UI/UX-related",
+    "synonyms": []
+  }
+]

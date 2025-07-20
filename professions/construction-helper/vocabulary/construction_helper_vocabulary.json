@@ -1,0 +1,322 @@
+[
+  {
+    "term": "I follow safety instructions carefully.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "hardworking",
+      "attentive",
+      "team player"
+    ]
+  },
+  {
+    "term": "I\u2019m strong and ready for physical work.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "hardworking",
+      "attentive",
+      "team player"
+    ]
+  },
+  {
+    "term": "I show up on time and work hard.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "hardworking",
+      "attentive",
+      "team player"
+    ]
+  },
+  {
+    "term": "I learn quickly and ask questions if unsure.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "hardworking",
+      "attentive",
+      "team player"
+    ]
+  },
+  {
+    "term": "I stay calm when things get busy.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "hardworking",
+      "attentive",
+      "team player"
+    ]
+  },
+  {
+    "term": "I enjoy building and fixing things.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "hardworking",
+      "attentive",
+      "team player"
+    ]
+  },
+  {
+    "term": "I take pride in working as part of a team.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "hardworking",
+      "attentive",
+      "team player"
+    ]
+  },
+  {
+    "term": "I pay attention to every step in the job.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "hardworking",
+      "attentive",
+      "team player"
+    ]
+  },
+  {
+    "term": "I\u2019m not afraid to get dirty or tired.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "hardworking",
+      "attentive",
+      "team player"
+    ]
+  },
+  {
+    "term": "I always finish what I start.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "hardworking",
+      "attentive",
+      "team player"
+    ]
+  },
+  {
+    "term": "hard hat",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "safety vest",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "steel-toe boots",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "measuring tape",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "hammer",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "nails and screws",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "drill",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "tool belt",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "ladders",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "construction site",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "blueprints",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "carrying materials",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "sweeping debris",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "mixing cement",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "shovel",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "concrete",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "wheelbarrow",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "level tool",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "saw",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "power tools",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "cutting wood",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "framing",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "drywall",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "scaffolding",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "tape measure",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "load and unload",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "support beams",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "rebar",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "safety goggles",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "gloves",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "teamwork",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "clean worksite",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "nail gun",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "bricklaying",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "cement mixer",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "foundation",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "wood planks",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "cleanup",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "roof work",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "heavy lifting",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "toolbox",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "construction crew",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "measuring",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "dust mask",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "painting prep",
+    "meaning": "construction-related",
+    "synonyms": []
+  },
+  {
+    "term": "hardware",
+    "meaning": "construction-related",
+    "synonyms": []
+  }
+]

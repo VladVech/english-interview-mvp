@@ -1,0 +1,322 @@
+[
+  {
+    "term": "I\u2019m friendly and make customers feel welcome.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "friendly",
+      "reliable",
+      "helpful"
+    ]
+  },
+  {
+    "term": "I\u2019m fast and accurate with transactions.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "friendly",
+      "reliable",
+      "helpful"
+    ]
+  },
+  {
+    "term": "I stay calm during busy times.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "friendly",
+      "reliable",
+      "helpful"
+    ]
+  },
+  {
+    "term": "I enjoy helping people find what they need.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "friendly",
+      "reliable",
+      "helpful"
+    ]
+  },
+  {
+    "term": "I follow company rules and handle money responsibly.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "friendly",
+      "reliable",
+      "helpful"
+    ]
+  },
+  {
+    "term": "I\u2019m always on time and ready to work.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "friendly",
+      "reliable",
+      "helpful"
+    ]
+  },
+  {
+    "term": "I\u2019m comfortable using computers and registers.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "friendly",
+      "reliable",
+      "helpful"
+    ]
+  },
+  {
+    "term": "I stay positive and polite with everyone.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "friendly",
+      "reliable",
+      "helpful"
+    ]
+  },
+  {
+    "term": "I\u2019m good at remembering prices and procedures.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "friendly",
+      "reliable",
+      "helpful"
+    ]
+  },
+  {
+    "term": "I\u2019m a team player and support my coworkers.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "friendly",
+      "reliable",
+      "helpful"
+    ]
+  },
+  {
+    "term": "cash register",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "POS system",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "scanning items",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "price check",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "customer service",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "handling cash",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "credit card",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "receipt",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "store policy",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "gift card",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "change",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "return",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "refund",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "loyalty program",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "restocking shelves",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "bagging items",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "greeting customers",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "merchandise",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "inventory",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "barcode",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "shift schedule",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "line management",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "sales floor",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "opening shift",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "closing duties",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "store discount",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "clean checkout",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "item lookup",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "promotion",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "shelf label",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "store manager",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "security tag",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "customer line",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "transaction",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "drawer count",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "till",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "store layout",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "loss prevention",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "price tag",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "friendly attitude",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "team huddle",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "uniform",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "store hours",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "smiling",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "fast checkout",
+    "meaning": "retail-related",
+    "synonyms": []
+  },
+  {
+    "term": "cleaning counter",
+    "meaning": "retail-related",
+    "synonyms": []
+  }
+]

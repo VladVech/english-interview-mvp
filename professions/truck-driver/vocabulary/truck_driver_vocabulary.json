@@ -1,0 +1,312 @@
+[
+  {
+    "term": "I\u2019m a dependable and safe driver.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "safe",
+      "reliable",
+      "focused"
+    ]
+  },
+  {
+    "term": "I know how to manage long routes with focus.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "safe",
+      "reliable",
+      "focused"
+    ]
+  },
+  {
+    "term": "I follow all traffic and safety laws carefully.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "safe",
+      "reliable",
+      "focused"
+    ]
+  },
+  {
+    "term": "I enjoy working independently on the road.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "safe",
+      "reliable",
+      "focused"
+    ]
+  },
+  {
+    "term": "I\u2019m always on time for deliveries.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "safe",
+      "reliable",
+      "focused"
+    ]
+  },
+  {
+    "term": "I stay calm and alert in heavy traffic.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "safe",
+      "reliable",
+      "focused"
+    ]
+  },
+  {
+    "term": "I take care of my vehicle and cargo.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "safe",
+      "reliable",
+      "focused"
+    ]
+  },
+  {
+    "term": "I\u2019m experienced with maps and GPS systems.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "safe",
+      "reliable",
+      "focused"
+    ]
+  },
+  {
+    "term": "I\u2019m respectful to clients and receivers.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "safe",
+      "reliable",
+      "focused"
+    ]
+  },
+  {
+    "term": "I handle pressure and deadlines professionally.",
+    "meaning": "Positive trait",
+    "synonyms": [
+      "safe",
+      "reliable",
+      "focused"
+    ]
+  },
+  {
+    "term": "logbook",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "CDL license",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "cargo",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "delivery route",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "weigh station",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "pre-trip inspection",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "long haul",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "short haul",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "logistics",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "dispatch",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "freight",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "loading dock",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "unloading",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "highway",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "blind spot",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "fuel stop",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "rest break",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "traffic laws",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "DOT regulations",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "hazard lights",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "turn radius",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "air brakes",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "tire check",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "safety check",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "trucking company",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "shipping papers",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "overnight trip",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "secure load",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "trailer",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "reefer",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "flatbed",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "diesel",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "CB radio",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "route plan",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "delivery schedule",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "hazmat",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "mileage",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "manual transmission",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "driver fatigue",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "weather conditions",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "load weight",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "rearview mirrors",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "fuel efficiency",
+    "meaning": "trucking-related",
+    "synonyms": []
+  },
+  {
+    "term": "on-time delivery",
+    "meaning": "trucking-related",
+    "synonyms": []
+  }
+]
