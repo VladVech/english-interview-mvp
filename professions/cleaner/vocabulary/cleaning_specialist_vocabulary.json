@@ -195,103 +195,107 @@
     "synonyms": []
   },
   {
+    [
+  {
     "term": "grime",
     "meaning": "sticky dirt",
-    "synonyms": []
+    "synonyms": ["filth", "gunk", "crud"]
   },
   {
     "term": "dusting",
     "meaning": "removing dust",
-    "synonyms": []
+    "synonyms": ["wiping", "brushing", "cleaning"]
   },
   {
     "term": "spill",
     "meaning": "liquid accident",
-    "synonyms": []
+    "synonyms": ["leak", "splash", "drip"]
   },
   {
     "term": "linens",
     "meaning": "sheets, towels",
-    "synonyms": []
+    "synonyms": ["bedding", "fabrics", "household textiles"]
   },
   {
     "term": "laundry",
     "meaning": "clothes to wash",
-    "synonyms": []
+    "synonyms": ["dirty clothes", "washables", "clothing load"]
   },
   {
     "term": "restroom",
     "meaning": "bathroom",
-    "synonyms": []
+    "synonyms": ["toilet", "washroom", "lavatory"]
   },
   {
     "term": "mirror streaks",
     "meaning": "marks on glass",
-    "synonyms": []
+    "synonyms": ["smears", "smudges", "lines"]
   },
   {
     "term": "germ control",
     "meaning": "kill bacteria",
-    "synonyms": []
+    "synonyms": ["sanitizing", "disinfection", "hygiene"]
   },
   {
     "term": "cleaning agents",
     "meaning": "chemical cleaners",
-    "synonyms": []
+    "synonyms": ["detergents", "solutions", "cleansers"]
   },
   {
     "term": "daily routine",
     "meaning": "everyday tasks",
-    "synonyms": []
+    "synonyms": ["schedule", "routine duties", "habit"]
   },
   {
     "term": "chemical safety",
     "meaning": "safe chemical use",
-    "synonyms": []
+    "synonyms": ["chemical handling", "hazard safety", "chemical precautions"]
   },
   {
     "term": "janitorial",
     "meaning": "cleaning services",
-    "synonyms": []
+    "synonyms": ["custodial", "maintenance", "housekeeping"]
   },
   {
     "term": "room inspection",
     "meaning": "clean check",
-    "synonyms": []
+    "synonyms": ["check-up", "room check", "inspection"]
   },
   {
     "term": "spotless",
     "meaning": "perfectly clean",
-    "synonyms": []
+    "synonyms": ["immaculate", "gleaming", "flawless"]
   },
   {
     "term": "wipe down",
     "meaning": "quick clean",
-    "synonyms": []
+    "synonyms": ["swipe", "rub clean", "surface clean"]
   },
   {
     "term": "squeegee",
     "meaning": "glass wiper",
-    "synonyms": []
+    "synonyms": ["rubber scraper", "window wiper", "blade"]
   },
   {
     "term": "laundry bin",
     "meaning": "basket for clothes",
-    "synonyms": []
+    "synonyms": ["hamper", "wash basket", "clothes basket"]
   },
   {
     "term": "eco-friendly products",
     "meaning": "green cleaners",
-    "synonyms": []
+    "synonyms": ["natural cleaners", "non-toxic products", "green supplies"]
   },
   {
     "term": "supply restocking",
     "meaning": "refill items",
-    "synonyms": []
+    "synonyms": ["replenishing", "refilling", "stocking"]
   },
   {
     "term": "cross-contamination",
     "meaning": "germ transfer",
-    "synonyms": []
+    "synonyms": ["bacteria spread", "pathogen transfer", "infection risk"]
   }
+]
+
 ]
