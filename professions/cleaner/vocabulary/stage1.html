@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cleaning Specialist Vocabulary Flashcards Stage 1</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f8f8f8; padding: 60px; }
+    .container { display: flex; flex-direction: column; align-items: center; }
+    .card {
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  margin: 30px 0;
+  perspective: 1000px;
+}
+    .inner-card {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      transition: transform 0.6s;
+      transform-origin: 52.5% center;
+    }
+    .card.flipped .inner-card {
+      transform: rotateY(180deg);
+    }
+    .front, .back {
+      background: #e0f7fa;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: white;
+      padding: 20px;
+      top: 0;
+      left: 0;
+    }
+    .back {
+      background: #e0f7fa;
+      transform: rotateY(180deg);
+    }
+    .term {
+      font-weight: bold;
+      font-size: 2em;
+      color: #2c3e50;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .meaning {
+      color: #16a085;
+      font-weight: bold;
+      font-size: 2em;
+      text-align: center;
+    }
+    .synonyms {
+      color: #7f8c8d;
+      font-size: 2em;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .speaker {
+      font-size: 32px; color: #2980b9;
+      margin-top: 0px;
+      font-size: 76px;
+      color: #3498db;
+      cursor: pointer;
+    }
+   .centered-buttons {
+      text-align: center;
+      margin-top: 40px;
+    }
+    button {
+      padding: 8px 16px;
+      font-size: 14px;
+      margin: 0 10px;
+    }
+    .nav-buttons {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .orange-button {
+  background-color: #ff6b00;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.orange-button:hover {
+  background-color: #e65c00;
+}
+  </style>
+</head>
+<body>
+<div class="nav-buttons" style="display: flex; justify-content: center; gap: 12px; margin-top: 20px;">
+  <a href="../index.html" class="orange-button">Back</a>
+  <a href="../../../index.html" class="orange-button">Home</a>
+</div>
+  <h1 style="text-align:center; font-size: 36px; color: #2233c9;">Cleaning Specialist</h1>
+<h1 style="text-align:center; font-size: 36px; color: #c95722;">Vocabulary Stage 1</h1>
+
+<div class="container">
+
+  <div class="card" onclick="this.classList.toggle('flipped')">
+    <div class="inner-card">
+      <div class="front">
+        <div class="term">I take pride in keeping spaces spotless.</div>
+        <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio0').play();">&#128264;</div>
+        <audio id="audio0">
+          <source src="sounds/01_Chapter 1.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="back">
+        <div class="meaning">Positive trait</div>
+        <div class="synonyms"><strong>Synonyms:</strong> motivated, reliable, efficient</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="this.classList.toggle('flipped')">
+    <div class="inner-card">
+      <div class="front">
+        <div class="term">I’m always on time and ready to work.</div>
+        <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio1').play();">&#128264;</div>
+        <audio id="audio1">
+          <source src="sounds/02_Chapter 1.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="back">
+        <div class="meaning">Positive trait</div>
+        <div class="synonyms"><strong>Synonyms:</strong> motivated, reliable, efficient</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="this.classList.toggle('flipped')">
+    <div class="inner-card">
+      <div class="front">
+        <div class="term">I pay attention to every little detail.</div>
+        <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio2').play();">&#128264;</div>
+        <audio id="audio2">
+          <source src="sounds/03_Chapter 1.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="back">
+        <div class="meaning">Positive trait</div>
+        <div class="synonyms"><strong>Synonyms:</strong> motivated, reliable, efficient</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="this.classList.toggle('flipped')">
+    <div class="inner-card">
+      <div class="front">
+        <div class="term">I’m reliable and can work with minimal supervision.</div>
+        <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio3').play();">&#128264;</div>
+        <audio id="audio3">
+          <source src="sounds/04_Chapter 1.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="back">
+        <div class="meaning">Positive trait</div>
+        <div class="synonyms"><strong>Synonyms:</strong> motivated, reliable, efficient</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="this.classList.toggle('flipped')">
+    <div class="inner-card">
+      <div class="front">
+        <div class="term">I stay calm and focused, even under pressure.</div>
+        <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio4').play();">&#128264;</div>
+        <audio id="audio4">
+          <source src="sounds/05_Chapter 1.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="back">
+        <div class="meaning">Positive trait</div>
+        <div class="synonyms"><strong>Synonyms:</strong> motivated, reliable, efficient</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="this.classList.toggle('flipped')">
+    <div class="inner-card">
+      <div class="front">
+        <div class="term">I’m a fast learner and love doing things efficiently.</div>
+        <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio5').play();">&#128264;</div>
+        <audio id="audio5">
+          <source src="sounds/06_Chapter 1.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="back">
+        <div class="meaning">Positive trait</div>
+        <div class="synonyms"><strong>Synonyms:</strong> motivated, reliable, efficient</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="this.classList.toggle('flipped')">
+    <div class="inner-card">
+      <div class="front">
+        <div class="term">I bring a positive attitude to any task.</div>
+        <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio6').play();">&#128264;</div>
+        <audio id="audio6">
+          <source src="sounds/07_Chapter 1.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="back">
+        <div class="meaning">Positive trait</div>
+        <div class="synonyms"><strong>Synonyms:</strong> motivated, reliable, efficient</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="this.classList.toggle('flipped')">
+    <div class="inner-card">
+      <div class="front">
+        <div class="term">I enjoy making things look clean and fresh.</div>
+        <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio7').play();">&#128264;</div>
+        <audio id="audio7">
+          <source src="sounds/08_Chapter 1.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="back">
+        <div class="meaning">Positive trait</div>
+        <div class="synonyms"><strong>Synonyms:</strong> motivated, reliable, efficient</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="this.classList.toggle('flipped')">
+    <div class="inner-card">
+      <div class="front">
+        <div class="term">I’m consistent and dependable on every shift.</div>
+        <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio8').play();">&#128264;</div>
+        <audio id="audio8">
+          <source src="sounds/09_Chapter 1.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="back">
+        <div class="meaning">Positive trait</div>
+        <div class="synonyms"><strong>Synonyms:</strong> motivated, reliable, efficient</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" onclick="this.classList.toggle('flipped')">
+    <div class="inner-card">
+      <div class="front">
+        <div class="term">I get compliments on how clean I leave spaces.</div>
+        <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio9').play();">&#128264;</div>
+        <audio id="audio9">
+          <source src="sounds/10_Chapter 1.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="back">
+        <div class="meaning">Positive trait</div>
+        <div class="synonyms"><strong>Synonyms:</strong> motivated, reliable, efficient</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+    
+   
+    
+</div>
+<script>
+  document.querySelectorAll("audio").forEach(audio => {
+    audio.playbackRate = 0.95;
+  });
+</script>
+
+</body>
+</html>
