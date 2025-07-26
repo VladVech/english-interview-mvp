@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Senior 3D Artist Vocabulary Flashcards Stage 1</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f8f8f8; padding: 60px; }
+    .container { display: flex; flex-direction: column; align-items: center; }
+    .card {
+  width: 100%;
+  max-width: 800px;
+  height: 500px;
+  margin: 30px 0;
+  perspective: 1000px;
+}
+    .inner-card {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      transition: transform 0.6s;
+      transform-origin: 52.5% center;
+    }
+    .card.flipped .inner-card {
+      transform: rotateY(180deg);
+    }
+    .front, .back {
+      background: #e0f7fa;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background: white;
+      padding: 20px;
+      top: 0;
+      left: 0;
+    }
+    .back {
+      background: #e0f7fa;
+      transform: rotateY(180deg);
+    }
+    .term {
+      font-weight: bold;
+      font-size: 2em;
+      color: #2c3e50;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .meaning {
+      color: #16a085;
+      font-weight: bold;
+      font-size: 2em;
+      text-align: center;
+    }
+    .synonyms {
+      color: #7f8c8d;
+      font-size: 2em;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .speaker {
+      font-size: 32px; color: #2980b9;
+      margin-top: 0px;
+      font-size: 76px;
+      color: #3498db;
+      cursor: pointer;
+    }
+   .centered-buttons {
+      text-align: center;
+      margin-top: 40px;
+    }
+    button {
+      padding: 8px 16px;
+      font-size: 14px;
+      margin: 0 10px;
+    }
+    .nav-buttons {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .orange-button {
+  background-color: #ff6b00;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.orange-button:hover {
+  background-color: #e65c00;
+}
+  </style>
+</head>
+<body>
+<div class="nav-buttons" style="display: flex; justify-content: center; gap: 12px; margin-top: 20px;">
+  <a href="../index.html" class="orange-button">Back</a>
+  <a href="../../../index.html" class="orange-button">Home</a>
+</div>
+  <h1 style="text-align:center; font-size: 36px; color: #2233c9;">Senior 3D Artist</h1>
+<h1 style="text-align:center; font-size: 36px; color: #c95722;">Vocabulary Stage 1</h1>
+
+<div class="container">
+
+  <div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">I consistently deliver top-quality 3D work under tight deadlines.</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio0').play();">&#128264;</div>
+      <audio id="audio0">
+        <source src="sounds/01_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Leadership trait</div>
+      <div class="synonyms"><strong>Synonyms:</strong> expert, visionary, trusted</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">I lead complex projects from concept to final render with precision.</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio1').play();">&#128264;</div>
+      <audio id="audio1">
+        <source src="sounds/02_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Leadership trait</div>
+      <div class="synonyms"><strong>Synonyms:</strong> expert, visionary, trusted</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">I mentor junior artists and elevate team performance.</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio2').play();">&#128264;</div>
+      <audio id="audio2">
+        <source src="sounds/03_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Leadership trait</div>
+      <div class="synonyms"><strong>Synonyms:</strong> expert, visionary, trusted</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">I’m recognized for setting visual standards across teams.</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio3').play();">&#128264;</div>
+      <audio id="audio3">
+        <source src="sounds/04_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Leadership trait</div>
+      <div class="synonyms"><strong>Synonyms:</strong> expert, visionary, trusted</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">I handle client feedback with professionalism and creative insight.</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio4').play();">&#128264;</div>
+      <audio id="audio4">
+        <source src="sounds/05_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Leadership trait</div>
+      <div class="synonyms"><strong>Synonyms:</strong> expert, visionary, trusted</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">I push technical and artistic boundaries in every project.</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio5').play();">&#128264;</div>
+      <audio id="audio5">
+        <source src="sounds/06_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Leadership trait</div>
+      <div class="synonyms"><strong>Synonyms:</strong> expert, visionary, trusted</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">I optimize workflows and troubleshoot at an expert level.</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio6').play();">&#128264;</div>
+      <audio id="audio6">
+        <source src="sounds/07_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Leadership trait</div>
+      <div class="synonyms"><strong>Synonyms:</strong> expert, visionary, trusted</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">I’m trusted with high-profile assignments and key visuals.</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio7').play();">&#128264;</div>
+      <audio id="audio7">
+        <source src="sounds/08_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Leadership trait</div>
+      <div class="synonyms"><strong>Synonyms:</strong> expert, visionary, trusted</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">I innovate with new tools and stay ahead of industry trends.</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio8').play();">&#128264;</div>
+      <audio id="audio8">
+        <source src="sounds/09_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Leadership trait</div>
+      <div class="synonyms"><strong>Synonyms:</strong> expert, visionary, trusted</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">I take full ownership of the visual storytelling process.</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio9').play();">&#128264;</div>
+      <audio id="audio9">
+        <source src="sounds/10_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Leadership trait</div>
+      <div class="synonyms"><strong>Synonyms:</strong> expert, visionary, trusted</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">photorealistic rendering</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio10').play();">&#128264;</div>
+      <audio id="audio10">
+        <source src="sounds/11_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Rendering with real-life accuracy</div>
+      <div class="synonyms"><strong>Synonyms:</strong> realistic rendering, lifelike output, high-fidelity render</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">shader network</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio11').play();">&#128264;</div>
+      <audio id="audio11">
+        <source src="sounds/12_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Node system for building materials</div>
+      <div class="synonyms"><strong>Synonyms:</strong> shading setup, node graph, material network</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">PBR workflow</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio12').play();">&#128264;</div>
+      <audio id="audio12">
+        <source src="sounds/13_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Physically accurate material setup</div>
+      <div class="synonyms"><strong>Synonyms:</strong> physically based rendering, realistic texturing, PBR pipeline</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">displacement map</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio13').play();">&#128264;</div>
+      <audio id="audio13">
+        <source src="sounds/14_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Map that adds surface height</div>
+      <div class="synonyms"><strong>Synonyms:</strong> height map, surface detail map, geometry modifier</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">normal baking</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio14').play();">&#128264;</div>
+      <audio id="audio14">
+        <source src="sounds/15_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Transfer surface detail to texture</div>
+      <div class="synonyms"><strong>Synonyms:</strong> normal map generation, detail transfer, baking normals</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">retopology</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio15').play();">&#128264;</div>
+      <audio id="audio15">
+        <source src="sounds/16_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Rebuilding mesh for animation or optimization</div>
+      <div class="synonyms"><strong>Synonyms:</strong> mesh rebuilding, topology cleanup, geometry reflow</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">mesh optimization</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio16').play();">&#128264;</div>
+      <audio id="audio16">
+        <source src="sounds/17_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Improving mesh performance and structure</div>
+      <div class="synonyms"><strong>Synonyms:</strong> geometry cleanup, polycount reduction, performance tuning</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">high poly sculpt</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio17').play();">&#128264;</div>
+      <audio id="audio17">
+        <source src="sounds/18_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Detailed sculpt with dense geometry</div>
+      <div class="synonyms"><strong>Synonyms:</strong> detailed sculpt, high-res mesh, complex geometry</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">low poly asset</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio18').play();">&#128264;</div>
+      <audio id="audio18">
+        <source src="sounds/19_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Model with few polygons for speed</div>
+      <div class="synonyms"><strong>Synonyms:</strong> game-ready model, optimized mesh, lightweight geometry</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">LOD (level of detail)</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio19').play();">&#128264;</div>
+      <audio id="audio19">
+        <source src="sounds/20_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Mesh variation based on distance</div>
+      <div class="synonyms"><strong>Synonyms:</strong> detail hierarchy, model simplification, distance-based mesh</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">UV unwrapping</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio20').play();">&#128264;</div>
+      <audio id="audio20">
+        <source src="sounds/21_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Process of projecting a 3D model’s surface into 2D space for texturing</div>
+      <div class="synonyms"><strong>Synonyms:</strong> UV mapping, texture layout, flattening mesh</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">tileable textures</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio21').play();">&#128264;</div>
+      <audio id="audio21">
+        <source src="sounds/22_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Seamless textures that repeat without visible borders</div>
+      <div class="synonyms"><strong>Synonyms:</strong> seamless textures, repeatable patterns, looping materials</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">procedural materials</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio22').play();">&#128264;</div>
+      <audio id="audio22">
+        <source src="sounds/23_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Materials created through algorithms instead of image textures</div>
+      <div class="synonyms"><strong>Synonyms:</strong> parametric shaders, generated materials, algorithmic textures</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">node-based shading</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio23').play();">&#128264;</div>
+      <audio id="audio23">
+        <source src="sounds/24_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Shading system using visual nodes to control material properties</div>
+      <div class="synonyms"><strong>Synonyms:</strong> visual shader editor, shader graph, nodal workflow</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">multi-pass rendering</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio24').play();">&#128264;</div>
+      <audio id="audio24">
+        <source src="sounds/25_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Rendering technique that separates elements like shadows, reflections, and lighting into layers</div>
+      <div class="synonyms"><strong>Synonyms:</strong> layered rendering, render passes, compositing workflow</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">render layer</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio25').play();">&#128264;</div>
+      <audio id="audio25">
+        <source src="sounds/26_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">A group of objects isolated for separate rendering and compositing</div>
+      <div class="synonyms"><strong>Synonyms:</strong> render group, output layer, isolated pass</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">HDRI lighting</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio26').play();">&#128264;</div>
+      <audio id="audio26">
+        <source src="sounds/27_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Lighting setup using high dynamic range images for realistic environments</div>
+      <div class="synonyms"><strong>Synonyms:</strong> environment lighting, dome light, panoramic light source</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">animation rig</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio27').play();">&#128264;</div>
+      <audio id="audio27">
+        <source src="sounds/28_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Skeleton and controls that allow 3D characters or objects to be animated</div>
+      <div class="synonyms"><strong>Synonyms:</strong> character rig, control rig, skeletal system</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">facial rig</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio28').play();">&#128264;</div>
+      <audio id="audio28">
+        <source src="sounds/29_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Specialized setup for controlling facial expressions in character animation</div>
+      <div class="synonyms"><strong>Synonyms:</strong> facial controller, expression rig, face setup</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">blend shapes</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio29').play();">&#128264;</div>
+      <audio id="audio29">
+        <source src="sounds/30_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Preset morph targets used to animate smooth transitions between mesh forms</div>
+      <div class="synonyms"><strong>Synonyms:</strong> morph targets, shape keys, mesh deformation</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">cloth simulation</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio30').play();">&#128264;</div>
+      <audio id="audio30">
+        <source src="sounds/31_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Physics-based animation that mimics realistic cloth movement and behavior</div>
+      <div class="synonyms"><strong>Synonyms:</strong> fabric simulation, soft-body physics, clothing dynamics</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">particle system</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio31').play();">&#128264;</div>
+      <audio id="audio31">
+        <source src="sounds/32_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">System for simulating tiny objects</div>
+      <div class="synonyms"><strong>Synonyms:</strong> FX emitter, spark system, fluid particles</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">physics simulation</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio32').play();">&#128264;</div>
+      <audio id="audio32">
+        <source src="sounds/33_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Animation driven by real physics</div>
+      <div class="synonyms"><strong>Synonyms:</strong> dynamic simulation, physical solver, real-world motion</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">scene assembly</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio33').play();">&#128264;</div>
+      <audio id="audio33">
+        <source src="sounds/34_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Placing assets into final scene</div>
+      <div class="synonyms"><strong>Synonyms:</strong> scene layout, shot setup, environment building</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">render farm</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio34').play();">&#128264;</div>
+      <audio id="audio34">
+        <source src="sounds/35_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Networked computers rendering in parallel</div>
+      <div class="synonyms"><strong>Synonyms:</strong> cloud renderer, batch render network, compute cluster</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">frame compositing</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio35').play();">&#128264;</div>
+      <audio id="audio35">
+        <source src="sounds/36_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Combining visual layers into shot</div>
+      <div class="synonyms"><strong>Synonyms:</strong> layer merge, VFX comp, image blending</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">light linking</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio36').play();">&#128264;</div>
+      <audio id="audio36">
+        <source src="sounds/37_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Control which light affects what</div>
+      <div class="synonyms"><strong>Synonyms:</strong> lighting masks, object targeting, shadow inclusion</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">camera match</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio37').play();">&#128264;</div>
+      <audio id="audio37">
+        <source src="sounds/38_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Align 3D view with real camera</div>
+      <div class="synonyms"><strong>Synonyms:</strong> camera tracking, matchmove, photogrammetry</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">depth of field</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio38').play();">&#128264;</div>
+      <audio id="audio38">
+        <source src="sounds/39_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Blur effect based on focus range</div>
+      <div class="synonyms"><strong>Synonyms:</strong> lens blur, focus falloff, background blur</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">motion blur</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio39').play();">&#128264;</div>
+      <audio id="audio39">
+        <source src="sounds/40_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Blur simulating object movement</div>
+      <div class="synonyms"><strong>Synonyms:</strong> motion streaks, camera blur, velocity blur</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">turntable render</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio40').play();">&#128264;</div>
+      <audio id="audio40">
+        <source src="sounds/41_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">360° spin render for preview</div>
+      <div class="synonyms"><strong>Synonyms:</strong> rotation render, model spin, turntable animation</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">portfolio shot</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio41').play();">&#128264;</div>
+      <audio id="audio41">
+        <source src="sounds/42_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Visual used to showcase work</div>
+      <div class="synonyms"><strong>Synonyms:</strong> showcase render, highlight frame, best frame</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">pipeline integration</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio42').play();">&#128264;</div>
+      <audio id="audio42">
+        <source src="sounds/43_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Connecting tools into workflow system</div>
+      <div class="synonyms"><strong>Synonyms:</strong> tool linking, process automation, software bridge</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">asset library</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio43').play();">&#128264;</div>
+      <audio id="audio43">
+        <source src="sounds/44_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Collection of reusable 3D elements</div>
+      <div class="synonyms"><strong>Synonyms:</strong> model library, content pack, asset repository</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">color grading</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio44').play();">&#128264;</div>
+      <audio id="audio44">
+        <source src="sounds/45_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Adjusting colors for final look</div>
+      <div class="synonyms"><strong>Synonyms:</strong> tone mapping, color correction, cinematic look</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">film LUT</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio45').play();">&#128264;</div>
+      <audio id="audio45">
+        <source src="sounds/46_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Color preset emulating film style</div>
+      <div class="synonyms"><strong>Synonyms:</strong> look-up table, cinematic LUT, film grade</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">project lead</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio46').play();">&#128264;</div>
+      <audio id="audio46">
+        <source src="sounds/47_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Person in charge of project</div>
+      <div class="synonyms"><strong>Synonyms:</strong> team lead, production head, project manager</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">production tracking</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio47').play();">&#128264;</div>
+      <audio id="audio47">
+        <source src="sounds/48_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Monitoring progress and deadlines</div>
+      <div class="synonyms"><strong>Synonyms:</strong> task tracking, schedule control, project management</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">scene cleanup</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio48').play();">&#128264;</div>
+      <audio id="audio48">
+        <source src="sounds/49_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Removing clutter and fixing errors</div>
+      <div class="synonyms"><strong>Synonyms:</strong> file cleanup, optimization pass, scene polishing</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">asset validation</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio49').play();">&#128264;</div>
+      <audio id="audio49">
+        <source src="sounds/50_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Checking assets meet standards</div>
+      <div class="synonyms"><strong>Synonyms:</strong> QA review, approval check, compliance check</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">creative direction</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio50').play();">&#128264;</div>
+      <audio id="audio50">
+        <source src="sounds/51_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Guiding visual and artistic style</div>
+      <div class="synonyms"><strong>Synonyms:</strong> art direction, visual leadership, creative vision</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">art review</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio51').play();">&#128264;</div>
+      <audio id="audio51">
+        <source src="sounds/52_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Evaluating visual work for quality</div>
+      <div class="synonyms"><strong>Synonyms:</strong> critique session, asset review, visual check</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">feedback loop</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio52').play();">&#128264;</div>
+      <audio id="audio52">
+        <source src="sounds/53_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Cycle of giving and applying feedback</div>
+      <div class="synonyms"><strong>Synonyms:</strong> revision cycle, review process, iteration loop</div>
+    </div>
+  </div>
+</div>
+
+<div class="card" onclick="this.classList.toggle('flipped')">
+  <div class="inner-card">
+    <div class="front">
+      <div class="term">visual benchmark</div>
+      <div class="speaker" onclick="event.stopPropagation(); document.getElementById('audio53').play();">&#128264;</div>
+      <audio id="audio53">
+        <source src="sounds/54_Chapter 1.mp3" type="audio/mpeg">
+      </audio>
+    </div>
+    <div class="back">
+      <div class="meaning">Reference for target visual quality</div>
+      <div class="synonyms"><strong>Synonyms:</strong> quality bar, visual goal, style reference</div>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+    
+   
+    
+</div>
+<script>
+  document.querySelectorAll("audio").forEach(audio => {
+    audio.playbackRate = 0.95;
+  });
+</script>
+
+</body>
+</html>
