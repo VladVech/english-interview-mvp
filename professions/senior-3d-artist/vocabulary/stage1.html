@@ -94,6 +94,27 @@
   font-weight: bold;
   cursor: pointer;
 }
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  gap: 10px;
+}
+
+.orange-button {
+  background-color: #ff6b00;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 48%;
+  font-size: 1.2em;
+  padding: 20px 0;
+}
 .orange-button:hover {
   background-color: #e65c00;
 }
@@ -268,18 +289,10 @@
     </div>
   </div>
 </div>
-  
+ 
 
-
-
-
-</div>
-
-    
-   
-    
-</div>
 <script>
+
   document.querySelectorAll("audio").forEach(audio => {
     audio.playbackRate = 0.95;
   });
